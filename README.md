@@ -7,10 +7,10 @@ This project is built as a *Python ML pipeline* (Jupyter Notebook + reusable mod
 
 ## 1) Project Context
 We use the *Instacart Online Grocery Basket Analysis* dataset (3M+ orders, 200K+ customers) to study customer behavior, shopping frequency, and product preferences, then translate findings into business actions:
-- smart bundling / upselling
+- smart bundling/upselling
 - customer segmentation for targeted marketing
 - purchase prediction
-- revenue / savings simulations
+- revenue/savings simulations
 - promotion efficiency (ROI)
 
 Core mining algorithms compared: **Apriori**, **Eclat**, **FP-Growth**, and **UP-Tree** (utility-aware mining to capture *value/profit*, not just frequency).
