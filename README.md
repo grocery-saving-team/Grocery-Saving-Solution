@@ -17,24 +17,22 @@ Core mining algorithms compared: **Apriori**, **Eclat**, **FP-Growth**, and **UP
 
 ## Git & GitHub Usage Guide
 
-<<<<<<< HEAD
 Download the project to your local machine.
-git clone https://github.com/KimYen2805/Grocery-Saving-Solution.git
-cd Grocery-Saving-Solution
+- git clone https://github.com/KimYen2805/Grocery-Saving-Solution.git
+- cd Grocery-Saving-Solution
 
 Check repository status
-git status
+- git status
 
 Make sure your local repository is update
-git pull origin main
+- git pull origin main
 
 Add and commit changes
-git add .
-git commit -m "Describe your changes"
+- git add .
+- git commit -m "Describe your changes"
 
 Push changes to GitHub
-git push origin main
+- git push origin main
 ---
 =======
----
->>>>>>> 63e6c569ac40c21faf8d97d0b2b4569d51a57e4d
+
