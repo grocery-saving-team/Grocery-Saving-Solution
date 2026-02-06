@@ -108,26 +108,60 @@ section div.stButton > button:focus {
 }
 /* CHART SELECTOR (GLASS BOX) */
 .chart-selector {
-    margin: 30px auto 10px;
-    padding: 18px 26px;
     max-width: 900px;
+    margin: -30px auto 0;
+    padding: 24px 30px 48px;  
 
-    background: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(8px);
-
-    border-radius: 18px;
+    background: #b3b3b3;
+    border-radius: 28px;
     text-align: center;
+    position: relative;
 }
 
-.chart-selector p {
-    margin: 0;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
+.chart-title {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 600;
 }
 
-/* Style cho selectbox */
-div[data-baseweb="select"] {
-    max-width: 300px;
-    margin: 12px auto 0;
+div[data-testid="stSelectbox"] {
+    max-width: 350px;
+    margin: -50px auto 0;  
 }
+/* DEPARTMENT PANEL */
+/*.department-panel {
+    border: 2px solid #f3c86a;
+    border-radius: 22px;
+    padding: 26px;
+    background: #172811;
+}*/
+
+/* TITLE */
+.department-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+/* CHECKBOX SPACING */
+section div[data-testid="stCheckbox"] {
+    margin-bottom: 10px;
+}
+
+/* SUBMIT BUTTON */
+button[kind="primary"] {
+    background: #5fb36f;
+    color: white !important;
+    border-radius: 24px !important;
+    padding: 12px 0 !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+button[kind="primary"]:hover {
+    background: #4ea460 !important;
+}
+
+
