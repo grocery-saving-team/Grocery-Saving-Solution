@@ -1,7 +1,7 @@
 # Data-Driven Retail Insights (Instacart) — Cost Savings & Revenue Growth
 Prototype analytics + recommendation tool that turns grocery-basket data into *actionable retail insights*: product bundles, customer segments, purchase prediction, and *money impact simulations*.
 
-This project is built as a *Python ML pipeline* (Jupyter Notebook + reusable modules) and a *Flask web app* that presents insights for shop owners: “If I adopt these insights, how much money do I save or earn, and why?”
+This project is built as a *Python ML pipeline* (Jupyter Notebook + reusable modules) and a *Streamlit web app* that presents insights for shop owners: “If I adopt these insights, how much money do I save or earn, and why?”
 
 ---
 
