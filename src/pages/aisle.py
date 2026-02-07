@@ -13,24 +13,28 @@ def render_aisle():
 
     # ================= LEFT PANEL =================
     with col1:
-        st.markdown('<div class="panel">', unsafe_allow_html=True)
-        st.markdown('<div class="panel-title">List of Aisle</div>', unsafe_allow_html=True)
+       # st.markdown('<div class="department-panel">', unsafe_allow_html=True)
 
-        selected = []
-        for aisle in aisles:
-            if st.checkbox(aisle.capitalize(), key=f"aisle_{aisle}"):
-                selected.append(aisle)
+        st.markdown(
+            '<div class="department-title">List of Aisles</div>',
+            unsafe_allow_html=True
+        )
 
-        st.markdown("<br>", unsafe_allow_html=True)
+        with st.form("department_form"):
+            selected = []
+            for aisle in aisles:
+                if st.checkbox(aisle.capitalize(), key=aisle):
+                    selected.append(aisle)
 
-        submit = st.button("Submit", key="submit_aisle", use_container_width=True)
+            # submit button inside the form in the left panel
+            submit = st.form_submit_button("Submit", use_container_width=True)
 
         st.markdown('</div>', unsafe_allow_html=True)
 
     # ================= RIGHT PANEL =================
     with col2:
-        st.markdown('<div class="panel">', unsafe_allow_html=True)
-        st.markdown('<div class="panel-title">Bundle Recommendation</div>', unsafe_allow_html=True)
+        st.markdown('<div class="department-panel">', unsafe_allow_html=True)
+        st.markdown('<div class="department-title">Bundle Recommendation</div>', unsafe_allow_html=True)
 
         if submit and selected:
             st.success(f"Selected: {', '.join(selected)}")
