@@ -1,5 +1,4 @@
 import streamlit as st
-
 from pages.home import render_home
 from pages.departments import render_departments
 from pages.aisle import render_aisle
