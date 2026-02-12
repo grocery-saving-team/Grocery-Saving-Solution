@@ -1,6 +1,6 @@
 import streamlit as st
 
-from data_loader import load_data
+# from data_loader import load_data
 from features import build_rfm
 from clustering import add_clusters
 from plots import (
