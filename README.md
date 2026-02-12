@@ -18,7 +18,7 @@ Core mining algorithms compared: **Apriori**, **Eclat**, **FP-Growth**, and **UP
 ## Git & GitHub Usage Guide
 
 Download the project to your local machine.
-- git clone https://github.com/KimYen2805/Grocery-Saving-Solution.git
+- git clone https://github.com/grocery-saving-team/Grocery-Saving-Solution.git
 - cd Grocery-Saving-Solution
 
 Check repository status

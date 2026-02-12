@@ -15,8 +15,7 @@ def load_all():
     df = load_data()
     rfm = build_rfm(df)
     rfm = add_clusters(rfm)
-    # return df, rfm
-    return rfm
+    return df, rfm
 
 
 def render_home():
@@ -24,7 +23,7 @@ def render_home():
     # ======================
     # LOAD DATA
     # ======================
-    # df, rfm = load_all()
+    df, rfm = load_all()
 
     # ======================
     # HERO
@@ -79,42 +78,30 @@ def render_home():
     </div>
     """, unsafe_allow_html=True)
 
-    chart_choice = st.selectbox(
-        "",
-        [
-            "1 Top 10 Products",
-            "2 Order Frequency by Segment",
-            "3 Customer Distribution",
-            "4 Orders Distribution",
-        ],
-        label_visibility="collapsed"
-    )
-
-
     # ======================
-    # CHART DISPLAY
+    # CHART ACCORDION STYLE
     # ======================
-    if chart_choice.startswith("1"):
-        st.subheader("🍎 Top 10 Products")
-        # st.plotly_chart(
-        #     top_products_pie(df),
-        #     use_container_width=True
-        # )
 
-    # elif chart_choice.startswith("2"):
-    #     st.subheader("📊 Order Frequency by Segment")
-    #     st.pyplot(
-    #         boxplot_orders_by_cluster(rfm)
-    #     )
+    with st.expander("📊 Top 10 Products", expanded=False):
+        st.plotly_chart(
+            top_products_pie(df),
+            use_container_width=True
+        )
 
-    # elif chart_choice.startswith("3"):
-    #     st.subheader("👥 Customer Distribution")
-    #     st.pyplot(
-    #         users_per_cluster(rfm)
-    #     )
+    with st.expander("📊 Order Frequency by Segment", expanded=False):
+        st.pyplot(
+            boxplot_orders_by_cluster(rfm)
+        )
 
-    # elif chart_choice.startswith("4"):
-    #     st.subheader("📈 Orders Distribution")
-    #     st.pyplot(
-    #         orders_distribution(rfm)
-    #     )
+    with st.expander("👥 Customer Distribution", expanded=False):
+        st.pyplot(
+            users_per_cluster(rfm)
+        )
+
+    with st.expander("📈 Orders Distribution", expanded=False):
+        st.pyplot(
+            orders_distribution(rfm)
+        )
+
+
+

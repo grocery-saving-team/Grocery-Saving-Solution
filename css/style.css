@@ -1,8 +1,18 @@
 /* LOGO */
+.logo-link {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
 .logo {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     color: #2e7d32;
+}
+
+.logo-link:hover .logo {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /* HERO SECTION*/
@@ -106,35 +116,54 @@ section div.stButton > button:focus {
 .card-link:hover h3 {
     color: #2e7d32;
 }
-/* CHART SELECTOR (GLASS BOX) */
+/* Accordion container */
 .chart-selector {
-    max-width: 900px;
-    margin: -30px auto 0;
-    padding: 24px 30px 48px;  
-
-    background: #b3b3b3;
+    background: #cdfccc;         
+    padding: 40px 20px;
     border-radius: 28px;
     text-align: center;
-    position: relative;
+    margin-bottom: 18px ;
+    max-width: 900px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
 }
 
-.chart-title {
-    margin-top: 16px;
-    margin-bottom: 0;
-    font-size: 30px;
+.chart-selector p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2f3640;
+    margin: 0;
+}
+
+/* EXPANDER BOX */
+div[data-testid="stExpander"] {
+    background: #b5b5b5;
+    border-radius: 26px;
+    padding: 18px 25px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+/* Remove default border */
+div[data-testid="stExpander"] details {
+    border: none;
+}
+
+/* Header layout */
+div[data-testid="stExpander"] summary {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
     font-weight: 600;
 }
 
-div[data-testid="stSelectbox"] {
-    max-width: 350px;
-    margin: -50px auto 0;  
+/* Optional spacing text */
+div[data-testid="stExpander"] summary span {
+    margin-right: 10px;
 }
 
-/* ===============================
-   DEPARTMENT PANEL
-================================ */
 
-
+/* DEPARTMENT PANEL*/
 /* Title */
 .department-title {
     text-align: center;
@@ -148,9 +177,7 @@ section div[data-testid="stCheckbox"] {
     margin-bottom: 10px;
 }
 
-/* ===============================
-   SUBMIT BUTTON
-================================ */
+/* SUBMIT BUTTON */
 
 div[data-testid="stFormSubmitButton"] > button {
     background-color: #5fb36f !important;
