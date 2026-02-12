@@ -10,12 +10,12 @@ from plots import (
     orders_distribution,
 )
 
-@st.cache_data
-def load_all():
-    df = load_data()
-    rfm = build_rfm(df)
-    rfm = add_clusters(rfm)
-    return df, rfm
+# @st.cache_data
+# def load_all():
+#     df = load_data()
+#     rfm = build_rfm(df)
+#     rfm = add_clusters(rfm)
+#     return df, rfm
 
 
 def render_home():
