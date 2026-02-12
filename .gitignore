@@ -51,8 +51,7 @@ Thumbs.db
 # =========================
 data/raw/
 data/instacart/
-*.csv
-!data/*.csv   # allow small, precomputed CSVs only
+
 
 # =========================
 # Model artifacts
