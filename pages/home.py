@@ -71,8 +71,9 @@ def render_home():
     # ======================
     # CHART SELECTOR
     # ======================
-    with st.container():
-         st.markdown("""
+    
+    
+    st.markdown("""
     <div class="chart-selector">
         <p>Select the chart you want to explore from the list below</p>
     </div>
