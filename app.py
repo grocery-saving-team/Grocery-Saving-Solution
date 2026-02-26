@@ -2,29 +2,29 @@ import streamlit as st
 from pages.home import render_home
 from pages.departments import render_departments
 from pages.aisle import render_aisle
+from pages.dashboard import render_dashboard
 
-# CONFIG
+#  Page configuration
 st.set_page_config(page_title="Instacart Analytics", layout="wide")
 
-#HIDE STREAMLIT STYLE
+#Hide Streamlit default menu and footer
 st.markdown("""
 <style>
 section[data-testid="stSidebar"] {display: none;}
 </style>
 """, unsafe_allow_html=True)
 
-# READ PAGE FROM URL
+# Router
 page = st.query_params.get("page", "HOME")
 
-# LOAD CSS
+# Load CSS
 with open("css/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# NAVBAR
+# Navigation bar with active state
 def active(p):
     return "active" if page == p else ""
-
-# ===== NAVBAR =====
+# Custom navigation bar
 st.markdown(f"""
 <div class="navbar">
     <a href="?page=HOME" class="logo">🥕 instacart</a>
@@ -36,10 +36,7 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-#st.divider()
-
-
-# ROUTER
+# Page routing logic 
 if page == "HOME":
     render_home()
 
@@ -48,6 +45,9 @@ elif page == "DEPARTMENTS":
 
 elif page == "AISLE":
     render_aisle()
+
+elif page == "DASHBOARD":
+    render_dashboard()
 
 elif page == "ABOUT":
     st.header("ℹ️ About Us")

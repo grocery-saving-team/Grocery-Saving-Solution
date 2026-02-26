@@ -1,0 +1,671 @@
+product_id,total_orders,product_name,aisle_id,aisle
+5181,53,Air Effects Linen & Sky Scent Air Freshener Spray,101,air fresheners candles
+49120,45,After The Rain Gel Air Freshener,101,air fresheners candles
+8567,44,Scented Soy Lavender Candle,101,air fresheners candles
+47674,44,Air Effects Linen & Sky Air Refresher,101,air fresheners candles
+4619,38,Original Scent Extra Strength Fabric Refresher Spray,101,air fresheners candles
+36724,701,Organic Sea Salt Roasted Seaweed Snacks,66,asian foods
+10492,314,Coconut Milk,66,asian foods
+23032,309,Sriracha Chili Sauce,66,asian foods
+22275,270,Sriracha Hot Chili Sauce,66,asian foods
+22220,264,Original Roasted Seaweed Snacks,66,asian foods
+44471,424,Free & Clear Unscented Baby Wipes,82,baby accessories
+219,40,Totz Toothbrush Extra Soft 18+ Months,82,baby accessories
+7489,19,Swaddlers Size 4 Giant Pack Diapers,82,baby accessories
+7754,9,Take & Toss 10oz Cups w/ Straws,82,baby accessories
+30217,8,Disposable Nursing Pads,82,baby accessories
+31990,38,Unscented Pure Castile Soap,102,baby bath body care
+23931,25,Calming Shampoo & Bodywash,102,baby bath body care
+41129,24,All-One Baby Unscented Pure-Castile Bar Soap,102,baby bath body care
+3491,23,Everyday Shea Lavender Bubble Bath,102,baby bath body care
+38100,20,Head-to-Toe Baby Wash,102,baby bath body care
+43875,587,Baby Food Stage 2 Blueberry Pear & Purple Carrot,92,baby food formula
+34134,548,Spinach Peas & Pear Stage 2 Baby Food,92,baby food formula
+2611,464,Gluten Free SpongeBob Spinach Littles,92,baby food formula
+3020,429,Broccoli & Apple Stage 2 Baby Food,92,baby food formula
+21162,383,Organic Mixed Berry Yogurt & Fruit Snack,92,baby food formula
+2298,177,"Muffins, Mini, Flax, Chocolate Brownie",8,bakery desserts
+31257,131,Vegan Chocolate Chip Mini Muffins,8,bakery desserts
+6729,106,Cookie Tray,8,bakery desserts
+34622,90,Vanilla Cupcakes,8,bakery desserts
+30700,87,Angel Food Cake,8,bakery desserts
+23537,912,Light Brown Sugar,17,baking ingredients
+7500,660,Organic Vanilla Extract,17,baking ingredients
+49533,629,Cane Sugar,17,baking ingredients
+23405,617,Pure Baking Soda,17,baking ingredients
+27243,585,Premium Pure Cane Granulated Sugar,17,baking ingredients
+160,227,100% Recycled Aluminum Foil,97,baking supplies decor
+37033,134,Non-Stick Parchment Paper,97,baking supplies decor
+47348,124,Heavy Duty Aluminum Foil,97,baking supplies decor
+28826,90,Parchment Baking Paper,97,baking supplies decor
+42294,87,Certified Compostable Large Baking Cups,97,baking supplies decor
+38426,71,Organic Cotton Balls,132,beauty
+48672,47,Cotton Rounds,132,beauty
+7883,40,Jumbo Cotton Balls,132,beauty
+48888,26,Nail Polish Remover,132,beauty
+11404,18,Triple Size Cotton Balls,132,beauty
+46088,395,Beer,27,beers coolers
+41131,296,India Pale Ale,27,beers coolers
+30036,105,Belgian White Wheat Ale,27,beers coolers
+28155,100,Premium Lager Beer,27,beers coolers
+43892,89,Premium Belgian Lager,27,beers coolers
+33439,143,Deep Moisture Body Wash,127,body lotions soap
+3868,119,White Beauty Bar,127,body lotions soap
+35601,116,Sensitive Skin Moisturizing Cream Soap Bars,127,body lotions soap
+27240,99,Classic Lavender & Chamomile Liquid Hand Soap,127,body lotions soap
+17836,92,Crisp Cucumber & Melon Liquid Hand Soap,127,body lotions soap
+5077,4257,100% Whole Wheat Bread,112,bread
+18362,1704,Organic Bread with 21 Whole Grains,112,bread
+18027,1281,Ezekiel 4:9 Bread Organic Sprouted Whole Grain,112,bread
+21267,1266,Sourdough Bread,112,bread
+45123,900,Organic 21 Grain Thin Sliced Bread,112,bread
+10673,1150,Original Nooks & Crannies English Muffins,93,breakfast bakery
+17706,879,Organic Whole Grain Wheat English Muffins,93,breakfast bakery
+20738,807,Plain Bagels,93,breakfast bakery
+42460,609,Plain Mini Bagels,93,breakfast bakery
+17341,574,Presliced Everything Bagels,93,breakfast bakery
+30591,279,Cinnamon Brown Sugar Breakfast Biscuits,48,breakfast bars pastries
+36472,225,Nutri Grain Bars Multi Pack,48,breakfast bars pastries
+27761,192,Oats & Chocolate Chewy Bars,48,breakfast bars pastries
+21351,176,Nutri-Grain Soft Baked Strawberry Cereal Breakfast Bars,48,breakfast bars pastries
+13605,173,Frosted berry Strawberry Toaster Pastries,48,breakfast bars pastries
+5161,772,Dried Mango,18,bulk dried fruits vegetables
+22827,232,Organic Black Mission Figs,18,bulk dried fruits vegetables
+1000,182,Apricots,18,bulk dried fruits vegetables
+30365,43,Vegetable Chips,18,bulk dried fruits vegetables
+10540,41,Whole Medjool Dates,18,bulk dried fruits vegetables
+22260,468,Organic Rolled Oats,68,bulk grains rice dried goods
+43210,110,Rolled Oats,68,bulk grains rice dried goods
+42091,86,Pesto Sauce,68,bulk grains rice dried goods
+7314,82,Organic Quick Rolled Oats,68,bulk grains rice dried goods
+40397,77,Organic Royal Rainbow Quinoa,68,bulk grains rice dried goods
+41658,716,Authentic French Brioche Hamburger Buns,43,buns rolls
+18987,560,Hot Dog Buns,43,buns rolls
+7806,481,Soft Pretzel Burger Buns,43,buns rolls
+46572,447,Sweet Rolls,43,buns rolls
+44310,399,Soft Pretzel Mini Buns,43,buns rolls
+33000,2628,Pure Irish Butter,36,butter
+42736,2622,Unsalted Butter,36,butter
+7948,1434,Organic Unsalted Butter,36,butter
+2078,1403,Unsalted Pure Irish Butter,36,butter
+35108,1395,Salted Butter,36,butter
+38164,896,Almonds & Sea Salt in Dark Chocolate,45,candy chocolate
+46616,773,Organic Dark Chocolate Peanut Butter Cups,45,candy chocolate
+39657,433,Milk Chocolate Almonds,45,candy chocolate
+13424,419,Almonds,45,candy chocolate
+2480,385,Organic 85% Cacao Dark Chocolate Bar,45,candy chocolate
+26790,1180,Organic AppleApple,99,canned fruit applesauce
+45013,453,Apple Sauce,99,canned fruit applesauce
+9598,346,Gogo Squeez Organic Apple Strawberry Applesauce on the Go,99,canned fruit applesauce
+15995,282,Organic Cinnamon Apple Sauce,99,canned fruit applesauce
+15860,221,Natural Apple Sauce Cups,99,canned fruit applesauce
+890,1584,Organic Diced Tomatoes,81,canned jarred vegetables
+7021,1289,Organic Tomato Paste,81,canned jarred vegetables
+8670,1081,Diced Tomatoes,81,canned jarred vegetables
+44449,1027,Organic Tomato Sauce,81,canned jarred vegetables
+3376,1008,Organic Whole Kernel Sweet Corn No Salt Added,81,canned jarred vegetables
+27156,2821,Organic Black Beans,59,canned meals beans
+28849,2167,No Salt Added Black Beans,59,canned meals beans
+42768,2125,Organic Garbanzo Beans,59,canned meals beans
+35042,1219,Black Beans,59,canned meals beans
+49175,744,Organic Pinto Beans,59,canned meals beans
+4317,330,Solid White Albacore Tuna In Water,95,canned meat seafood
+79,309,Wild Albacore Tuna No Salt Added,95,canned meat seafood
+45149,249,Chunk Light Tuna In Water,95,canned meat seafood
+32538,156,Chunk Light Tuna,95,canned meat seafood
+16281,152,Solid White Albacore Tuna,95,canned meat seafood
+16647,130,Double Duty Advanced Odor Control Clumping Cat Litter,41,cat food care
+7076,124,Grain Free Chicken Formula Cat Food,41,cat food care
+49355,124,Instant Action Cat Litter,41,cat food care
+54,113,24/7 Performance Cat Litter,41,cat food care
+10863,90,Grain Free Turkey & Salmon Formula Cat Food,41,cat food care
+41844,2046,Honey Nut Cheerios,121,cereal
+6187,1102,Raisin Bran Cereal,121,cereal
+20955,983,Cereal,121,cereal
+31433,666,Organic Cinnamon Crunch Cereal,121,cereal
+31759,565,Cherrios Honey Nut,121,cereal
+13870,1764,Lightly Salted Baked Snap Pea Crisps,107,chips pretzels
+31040,1275,Sea Salt Pita Chips,107,chips pretzels
+21376,1249,Pretzel Crisps Original Deli Style Pretzel Crackers,107,chips pretzels
+35561,1082,Organic Tortilla Chips,107,chips pretzels
+40709,1055,Sea Salt & Vinegar Potato Chips,107,chips pretzels
+21847,270,Lemongrass Citrus Scent Disinfecting Wipes,114,cleaning products
+34287,220,"Disinfecting Wipes, Lemon",114,cleaning products
+881,203,Heavy Duty Scrub Sponges,114,cleaning products
+20590,194,Disinfecting Wipes Fresh Scent,114,cleaning products
+45566,185,Clean Up Cleaner with Bleach Fresh Scent,114,cleaning products
+17956,124,Cocoa Powder,90,cocoa drink mixes
+39321,65,Milk Chocolate Hot Cocoa Mix,90,cocoa drink mixes
+4081,49,On the Go Natural Lemonade Drink Mix,90,cocoa drink mixes
+29284,44,Pink Lemonade Drink Mix,90,cocoa drink mixes
+12332,43,Liquid Water Enhancer Orange Tangerine,90,cocoa drink mixes
+25718,552,Cold Brew Coffee,26,coffee
+1695,430,Major Dickason's Blend Ground Coffee Dark Roast,26,coffee
+7521,410,New Orleans Iced Coffee,26,coffee
+32740,399,Cold-Brew Black Coffee,26,coffee
+30850,348,French Roast Ground Coffee,26,coffee
+4698,81,Oscillo Oscillococcinum Quick-Dissolving Pellets,11,cold flu allergy
+36696,79,The Original Natural Herb Drops Cough Suppressant,11,cold flu allergy
+35018,55,Coldcalm Homeopathic Tablets,11,cold flu allergy
+44027,52,Honey Lemon Menthol Drops Cough Suppressant/Oral Anesthetic,11,cold flu allergy
+44166,49,Allergy Relief Spray,11,cold flu allergy
+18441,1127,Organic Ketchup,72,condiments
+7751,1049,Tomato Ketchup,72,condiments
+35898,856,Original Hot Sauce,72,condiments
+27796,817,Real Mayonnaise,72,condiments
+44628,742,Organic Dijon Mustard,72,condiments
+40199,1048,Chocolate Chip Cookies,61,cookies cakes
+40063,700,Gluten Free Chocolate Chip Cookies,61,cookies cakes
+12481,410,Oreo Chocolate Sandwich Cookies,61,cookies cakes
+45866,367,Fig Newmans Fruit Filled Cookies,61,cookies cakes
+26634,292,"Cookies, Chocolate Chip Walnut",61,cookies cakes
+34262,891,Hint Of Sea Salt Almond Nut Thins,78,crackers
+39561,828,Crackers Cheddar Bunnies Snack Packs,78,crackers
+22474,730,Cheddar Bunnies Snack Crackers,78,crackers
+2091,654,Almond Nut & Rice Cracker Snacks,78,crackers
+24810,626,Organic Lightly Salted Brown Rice Cakes,78,crackers
+49235,5244,Organic Half & Half,53,cream
+27086,4642,Half & Half,53,cream
+18531,1612,Organic Heavy Whipping Cream,53,cream
+44987,1514,Heavy Whipping Cream,53,cream
+27744,661,Organic Whipping Cream,53,cream
+38247,43,Men Dry Protection Cool Rush Antiperspirant & Deodorant,80,deodorants
+36759,41,Unscented Long Lasting Stick Deodorant,80,deodorants
+21241,40,Shower Fresh Invisible Solid Women's Antiperspirant & Deodorant,80,deodorants
+40538,37,Clean Comfort Antiperspirant Deodorant,80,deodorants
+26499,36,Lavender Long Lasting Deodorant,80,deodorants
+5922,156,"Honest Face, Hand, & Baby Wipes",56,diapers wipes
+36441,129,Baby Wipes,56,diapers wipes
+42887,105,Baby Wipes Sensitive,56,diapers wipes
+1039,82,Free & Clear Unscented Refill Value Packs Baby Wipes,56,diapers wipes
+14904,67,Free & Clear Diapers,56,diapers wipes
+14711,153,Organic Lowfat Mango Kefir,70,digestion
+16528,98,Straightshot Probiotic Oat Drink,70,digestion
+2722,70,Raw Probiotics Women probiotic 85 Billion 32 Strains capsules,70,digestion
+30471,65,Organic Kids Berry Cherry Flavor Probiotic Chews,70,digestion
+12283,58,Probiotic Green Coconut Water,70,digestion
+13838,577,Natural Free & Clear Dish Liquid,74,dish detergents
+33290,472,Lemon Verbena Dish Soap,74,dish detergents
+2581,267,Lavender Floral & Mint Natural Dish Liquid,74,dish detergents
+7014,266,Dishwasher Gel Free & Clear,74,dish detergents
+3098,253,Lavender Dish Soap,74,dish detergents
+722,57,Snack Sticks Chicken & Rice Recipe Dog Treats,40,dog food care
+19571,56,Organix Grain Free Chicken & Vegetable Dog Food,40,dog food care
+23329,51,Organix Chicken & Brown Rice Recipe,40,dog food care
+17471,49,Small Dog Biscuits,40,dog food care
+35412,49,Select Tender Chicken with Vegetables & Brown Rice Dog Food Recipe,40,dog food care
+7559,886,Cinnamon Rolls with Icing,105,doughs gelatins bake mixes
+33043,603,Crescent Rolls,105,doughs gelatins bake mixes
+13431,588,Flaky Biscuits,105,doughs gelatins bake mixes
+27288,320,Chocolate Chip Cookie Dough,105,doughs gelatins bake mixes
+16020,271,Original Crescent Rolls,105,doughs gelatins bake mixes
+32734,1154,Spaghetti,131,dry pasta
+12872,707,Penne Rigate,131,dry pasta
+46522,681,Spaghetti Pasta,131,dry pasta
+14168,609,Penne Pasta,131,dry pasta
+5240,563,Spaghetti  No 12,131,dry pasta
+11520,3183,Large Alfresco Eggs,86,eggs
+18465,3065,Organic Grade A Free Range Large Brown Eggs,86,eggs
+30233,2258,Organic Large Brown Grade AA Cage Free Eggs,86,eggs
+32655,1864,Organic Large Grade AA Brown Eggs,86,eggs
+33120,1502,Organic Egg Whites,86,eggs
+44560,857,Kids Organic Chocolate Chip ZBars,3,energy granola bars
+5322,710,Gluten Free Dark Chocolate Chunk Chewy with a Crunch Granola Bars,3,energy granola bars
+41400,652,Crunchy Oats 'n Honey Granola Bars,3,energy granola bars
+16254,579,ZBar Organic Chocolate Brownie Energy Snack,3,energy granola bars
+17224,568,Oats & Honey Gluten Free Granola,3,energy granola bars
+11123,437,Vitamin Water Zero Squeezed Lemonade,64,energy sports drinks
+33452,435,Fruit Punch Sports Drink,64,energy sports drinks
+41276,428,Energy Drink,64,energy sports drinks
+31231,323,Vitamin Water Zero Rise Orange,64,energy sports drinks
+31102,317,Sugar Free Energy Drink,64,energy sports drinks
+33493,392,Cotton Swabs,44,eye ear care
+18198,26,Triple Action Cleaning and Disinfecting Solution Twin Pack,44,eye ear care
+21464,23,Multi-Purpose Contact Lens Solution,44,eye ear care
+30058,20,Opti-Free Replenish Multi-Purpose Disinfecting Solution,44,eye ear care
+21580,18,Multi-Purpose Disinfecting Solution,44,eye ear care
+280,130,Makeup Remover Cleansing Towelettes,73,facial care
+44614,78,Makeup Remover Cleansing Towelettes Refill,73,facial care
+10732,68,Sensitive Skin Experts Cleansing Facial Wipes,73,facial care
+2915,44,Cleansing Towelettes Night Calming Makeup Remover,73,facial care
+4020,35,Gentle Skin Cleanser,73,facial care
+19190,44,Curved Panty Liners,126,feminine care
+20567,41,Organic Regular Cotton Tampons No Applicator,126,feminine care
+9972,35,Pearl Regular Absorbency Unscented Tampons,126,feminine care
+29978,35,Flushable Moist Wipes,126,feminine care
+31043,33,Ultra Thin Regular Pads wth Wings,126,feminine care
+39858,118,Hydrogen Peroxide,118,first aid
+24291,30,Neosporin 24 Hour Infection Protection First Aid Antibiotic Ointment,118,first aid
+48931,25,Hydrogen Peroxide 3%,118,first aid
+30842,21,Hydrogen Peroxide Topical Solution,118,first aid
+7343,20,Assorted Sheer Strip Bandages,118,first aid
+31066,793,Aluminum Foil,85,food storage
+48812,371,Variety Pack,85,food storage
+31268,296,Sandwich Bags,85,food storage
+44643,296,Gallon Freezer Bags,85,food storage
+47865,255,Quart Storage Bags,85,food storage
+30489,5156,Original Hummus,67,fresh dips tapenades
+21019,1344,Roasted Red Pepper Hummus,67,fresh dips tapenades
+40396,1235,Guacamole,67,fresh dips tapenades
+13646,1154,Lemon Hummus,67,fresh dips tapenades
+33129,1104,Classic Hummus,67,fresh dips tapenades
+24852,34176,Banana,24,fresh fruits
+13176,27889,Bag of Organic Bananas,24,fresh fruits
+21137,19422,Organic Strawberries,24,fresh fruits
+47209,14150,Organic Hass Avocado,24,fresh fruits
+47626,13063,Large Lemon,24,fresh fruits
+31717,5745,Organic Cilantro,16,fresh herbs
+34126,4317,Organic Italian Parsley Bunch,16,fresh herbs
+28842,3406,Bunched Cilantro,16,fresh herbs
+43789,2111,Organic Basil,16,fresh herbs
+13984,1346,Organic Mint,16,fresh herbs
+39719,248,"Freshly Made. Filled with Creamy Ricotta, Aged Parmesan and Romano Cheeses Three Cheese Tortellini",12,fresh pasta
+4193,174,"Ravioli, Spinach & Cheese",12,fresh pasta
+2124,141,Cheese Ravioli,12,fresh pasta
+165,106,Wild Chanterelle Mushroom Ravioli,12,fresh pasta
+8057,101,Organic Chicken & Mozzarella Ravioli,12,fresh pasta
+45007,8013,Organic Zucchini,83,fresh vegetables
+22935,7897,Organic Yellow Onion,83,fresh vegetables
+24964,7705,Organic Garlic,83,fresh vegetables
+30391,7169,Organic Cucumber,83,fresh vegetables
+4605,6104,Yellow Onions,83,fresh vegetables
+2452,766,Naturals Chicken Nuggets,129,frozen appetizers sides
+31766,631,Cheese Pizza Snacks,129,frozen appetizers sides
+11440,609,Chicken Breast Tenders Breaded,129,frozen appetizers sides
+17652,593,Air Chilled Breaded Chicken Breast Nuggets,129,frozen appetizers sides
+1215,565,Kidz All Natural Baked Chicken Nuggets,129,frozen appetizers sides
+7963,958,Gluten Free Whole Grain Bread,58,frozen breads doughs
+18908,215,Pizza Dough,58,frozen breads doughs
+44389,96,Gluten Free Original Baguettes,58,frozen breads doughs
+45143,90,Organic Fillo Dough,58,frozen breads doughs
+34282,87,Original Sandwich Bread,58,frozen breads doughs
+37158,1170,Chicken & Maple Breakfast Sausage,52,frozen breakfast
+9825,771,Organic Multigrain Waffles,52,frozen breakfast
+30696,741,Eggo Homestyle Waffles,52,frozen breakfast
+9515,620,Natural Classic Pork Breakfast Sausage,52,frozen breakfast
+25753,595,Organic Homestyle Waffles,52,frozen breakfast
+43889,309,Dark Chocolate Covered Banana,119,frozen dessert
+11121,194,Original Whipped Topping,119,frozen dessert
+41556,111,Pastry Kitchens Classic Puff Pastry,119,frozen dessert
+14563,76,Puff Pastry Sheets,119,frozen dessert
+22619,62,Cool Whipe Lite Whipped Topping,119,frozen dessert
+16539,63,Orange Juice with Calcium,113,frozen juice
+38959,37,"Smoothies, Strawberries Wild",113,frozen juice
+1751,32,Organic Orange Juice Concentrate,113,frozen juice
+12289,27,All Natural Smoothies Orange Dream Machine,113,frozen juice
+17216,27,"Pitaya Dragonfruit Raw, Organic Smoothie Packs",113,frozen juice
+42450,1258,Macaroni & Cheese,38,frozen meals
+49075,1036,Organic Brown Rice,38,frozen meals
+34217,663,Pesto Tortellini  Bowls,38,frozen meals
+9124,591,Broccoli & Cheddar Bake Meal Bowl,38,frozen meals
+47792,560,Organic Beans & Rice Cheddar Cheese Burrito,38,frozen meals
+43504,798,Organic Chicken Strips,34,frozen meat seafood
+12144,387,Gluten-Free Chicken Nuggets,34,frozen meat seafood
+48287,373,Natural Chicken & Maple Breakfast Sausage Patty,34,frozen meat seafood
+7862,353,Raw Shrimp,34,frozen meat seafood
+9434,268,Bag of Large Lemons,34,frozen meat seafood
+24561,957,Organic Cheese Frozen Pizza,79,frozen pizza
+20345,814,Thin Crust Pepperoni Pizza,79,frozen pizza
+5449,556,Margherita Pizza,79,frozen pizza
+9741,524,Cheese Pizza,79,frozen pizza
+5959,463,Four Cheese Thin Crust Pizza,79,frozen pizza
+9076,4198,Blueberries,116,frozen produce
+20995,2459,Organic Broccoli Florets,116,frozen produce
+24489,2264,Organic Whole Strawberries,116,frozen produce
+17948,2035,Frozen Organic Wild Blueberries,116,frozen produce
+46802,1828,Pineapple Chunks,116,frozen produce
+38944,567,Seven Grain Crispy Tenders,42,frozen vegan vegetarian
+45364,348,California Veggie Burgers - 4 CT,42,frozen vegan vegetarian
+15950,319,Chik'n Nuggets,42,frozen vegan vegetarian
+2979,288,Beyond Beef Beefy Crumble,42,frozen vegan vegetarian
+2002,222,"The \""World's Best\"" Veggie Burger",42,frozen vegan vegetarian
+34448,1227,Original Veggie Straws,50,fruit vegetable snacks
+5194,929,Organic Bunny Fruit Snacks Berry Patch,50,fruit vegetable snacks
+13740,884,Organic Summer Strawberry Bunny Fruit Snacks,50,fruit vegetable snacks
+26348,806,Mixed Fruit Fruit Snacks,50,fruit vegetable snacks
+27690,573,Apple Cinnamon GoGo Squeez,50,fruit vegetable snacks
+48395,660,Original Rice Pilaf Mix,63,grains rice dried goods
+24009,620,Organic Long Grain White Rice,63,grains rice dried goods
+3142,582,Organic Short Grain Brown Rice,63,grains rice dried goods
+38650,551,Organic Red Lentils,63,grains rice dried goods
+25005,468,Organic Green Lentils,63,grains rice dried goods
+9550,445,Ancient Grain Original Granola,57,granola
+18352,429,Flax Plus Organic Pumpkin Flax Granola,57,granola
+31663,426,Vanilla Blueberry Clusters With Flax Seeds Granola,57,granola
+34565,329,Peanut Butter Whole Grain Clusters,57,granola
+812,322,Healthy Grains Oats & Honey Clusters with Toasted Coconut Gluten Free,57,granola
+19513,62,Moroccan Argan Oil + Argan Stem Cell Triple Moisture Conditioner,22,hair care
+7657,54,Hair Shampoos,22,hair care
+27177,42,"Shampoo, Body Wash, Bubble Bath Coconut+Lemon",22,hair care
+4341,33,Lavender Conditioner,22,hair care
+10676,33,Classic Clean Anti-Dandruff Shampoo,22,hair care
+22504,550,Organic Mountain Forest Amber Honey,29,honeys syrups nectars
+5067,351,Original Syrup,29,honeys syrups nectars
+18471,291,Organic Light Agave Nectar,29,honeys syrups nectars
+34067,158,Organic Honey,29,honeys syrups nectars
+40969,157,Pure Clover Honey,29,honeys syrups nectars
+44422,1393,Organic Old Fashioned Rolled Oats,130,hot cereal pancake mixes
+21543,682,Organic Quick Oats,130,hot cereal pancake mixes
+47966,397,Old Fashioned Rolled Oats,130,hot cereal pancake mixes
+49111,389,Original Instant Oatmeal,130,hot cereal pancake mixes
+37464,385,Apple Cinnamon Instant Oatmeal,130,hot cereal pancake mixes
+47672,1503,Uncured Hickory Smoked Sunday Bacon,106,hot dogs bacon sausage
+5646,1077,Organic Turkey Bacon,106,hot dogs bacon sausage
+27695,1034,Natural Chicken & Sage Breakfast Sausage,106,hot dogs bacon sausage
+12456,943,Organic Sunday Bacon,106,hot dogs bacon sausage
+9339,887,Organic Chicken & Apple Sausage,106,hot dogs bacon sausage
+16965,1059,Chocolate Ice Cream,37,ice cream ice
+32691,832,Vanilla Ice Cream,37,ice cream ice
+12276,691,Chocolate Chip Cookie Dough Ice Cream,37,ice cream ice
+20754,568,Mediterranean Mint Gelato,37,ice cream ice
+2361,551,Mint Chip,37,ice cream ice
+27398,175,Genuine Chocolate Flavor Syrup,103,ice cream toppings
+39469,75,Organic Chocolate Flavored Syrup,103,ice cream toppings
+30327,69,Organic Ice Cream Cones,103,ice cream toppings
+11462,51,Organic Sugar Ice Cream Cones,103,ice cream toppings
+16752,47,Merry Maraschino Pitted Cherries,103,ice cream toppings
+40342,126,Tikka Masala Mild Indian Simmer Sauce,76,indian foods
+34786,86,Tikka Masala Simmer Sauce,76,indian foods
+9864,81,Madras Lentils Indian Cuisine,76,indian foods
+22534,65,Kashmiri Curry Mild Indian Simmer Sauce,76,indian foods
+19385,58,Channa Masala Indian Cuisine,76,indian foods
+42110,764,Organic Macaroni Shells & Real Aged Cheddar,4,instant foods
+35004,729,Macaroni Shells & White Cheddar Cheese,4,instant foods
+1090,610,Shells & Real Aged Cheddar Macaroni & Cheese,4,instant foods
+36772,591,Bunny Pasta with Yummy Cheese Macaroni & Cheese,4,instant foods
+18599,482,Garlic Couscous,4,instant foods
+2966,1310,Pure Coconut Water,98,juice nectars
+42719,835,Natural Premium Coconut Water,98,juice nectars
+18811,828,Organic Apple Juice,98,juice nectars
+19173,752,Orange Calcium & Vitamin D Pulp Free,98,juice nectars
+14715,680,Coconut Water,98,juice nectars
+7299,66,Primordial Himalayan Sea Salt,10,kitchen supplies
+6061,61,Wax Paper,10,kitchen supplies
+30214,54,Half Steam Pan,10,kitchen supplies
+42477,34,Pitcher Replacement Filters,10,kitchen supplies
+21025,23,Lasagna Pans,10,kitchen supplies
+48784,103,Lightly Breaded Fish Sticks,33,kosher foods
+17731,68,Gluten Free Matzo-Style Squares,33,kosher foods
+16668,57,Bamba Peanut Snack,33,kosher foods
+15602,45,Egg Matzos,33,kosher foods
+9465,36,Matzos,33,kosher foods
+2450,710,Taco Seasoning,30,latino foods
+39430,371,New Mexico Taco Skillet Sauce For Chicken,30,latino foods
+35167,285,Organic Spicy Taco Seasoning,30,latino foods
+18849,202,Red Chile Enchilada Sauce,30,latino foods
+17264,172,Stand 'n Stuff Taco Shells,30,latino foods
+204,355,Free & Clear Natural Laundry Detergent For Sensitive Skin,75,laundry
+605,276,Natural Liquid Laundry Detergent - Blue Eucalyptus and Lavender,75,laundry
+9358,195,April Fresh Liquid Fabric Softener,75,laundry
+5748,178,Free and Gentle High Efficiency Liquid Laundry Detergent,75,laundry
+37357,171,"Natural Laundry Detergent, Free & Clear 33",75,laundry
+27344,3144,Uncured Genoa Salami,96,lunch meat
+22963,2043,Organic Roasted Turkey Breast,96,lunch meat
+40310,1488,Oven Roasted Turkey Breast,96,lunch meat
+42342,1485,Roasted Turkey Breast,96,lunch meat
+19019,955,Uncured Slow Cooked Ham,96,lunch meat
+43129,638,Panko Bread Crumbs,5,marinades meat preparation
+49481,237,Original Barbecue Sauce,5,marinades meat preparation
+23541,220,Veri Veri Teriyaki Marinade & Sauce,5,marinades meat preparation
+18557,159,Original Bar BBQ Sauce,5,marinades meat preparation
+48017,157,Organic Hoisin Sauce,5,marinades meat preparation
+13198,1041,85% Lean Ground Beef,122,meat counter
+10603,533,93% Ground Beef,122,meat counter
+22888,500,90% Lean Ground Beef,122,meat counter
+49236,384,80% Lean Ground Beef,122,meat counter
+26324,334,Grass Fed Ground Beef,122,meat counter
+27845,9270,Organic Whole Milk,84,milk
+5785,3096,Organic Reduced Fat 2% Milk,84,milk
+23909,2749,2% Reduced Fat Milk,84,milk
+4210,2549,Whole Milk,84,milk
+38689,2349,Organic Reduced Fat Milk,84,milk
+43721,118,Wint-O-Green,46,mint gum
+27294,104,Wrigley's Orbit Wintermint Sugar Free Gum- 3 PK,46,mint gum
+34355,98,Spearmint Sugar-Free Gum,46,mint gum
+35034,53,Peppermint Sugar Free Gum,46,mint gum
+20367,48,Natural Mint Gum,46,mint gum
+41149,1075,Organic Riced Cauliflower,100,missing
+7035,329,Peanut Butter Ice Cream Cup,100,missing
+38510,262,Organic Celery Bunch,100,missing
+11494,229,Cookie Dough Ice Cream Chocolate Chip,100,missing
+15576,224,Uncured Beef Hot Dog,100,missing
+274,160,Snack Bags,87,more household
+1947,130,Tulips 10 Stem,87,more household
+37993,83,Coppertop AA Batteries,87,more household
+42224,63,Coppertop AA Alkaline Batteries,87,more household
+13370,59,Packaging Tape High Performance,87,more household
+9047,281,Premium Epsom Salt,133,muscles joints pain relief
+36534,177,Epsom Salt,133,muscles joints pain relief
+455,70,Ibuprofen Liquid Gels,133,muscles joints pain relief
+8229,52,Pain Reliever and Fever Reducer Tablets,133,muscles joints pain relief
+3399,51,Pain Relief Tablets,133,muscles joints pain relief
+5134,917,Organic Thompson Seedless Raisins,117,nuts seeds dried fruit
+35140,876,Organic Whole Cashews,117,nuts seeds dried fruit
+7503,849,Whole Almonds,117,nuts seeds dried fruit
+12845,774,Chopped Walnuts,117,nuts seeds dried fruit
+20734,760,Organic Medjool Dates,117,nuts seeds dried fruit
+31506,3675,Extra Virgin Olive Oil,19,oils vinegars
+21195,1033,Organic Extra Virgin Olive Oil,19,oils vinegars
+10644,982,Italian Extra Virgin Olive Oil,19,oils vinegars
+18963,716,Apple Cider Vinegar,19,oils vinegars
+4461,693,Organic Raw Unfiltered Apple Cider Vinegar,19,oils vinegars
+29418,300,Fluoride-Free Antiplaque & Whitening Peppermint Toothpaste,20,oral hygiene
+3007,164,Natural Anticavity Silly Strawberry Fluoride Toothpaste for Children,20,oral hygiene
+2272,145,Peppermint,20,oral hygiene
+26606,142,Simply White Natural Clean Mint Fluoride Toothpaste,20,oral hygiene
+35206,131,Whitening Plus Scope Crest Complete Whitening + Scope Multi-Benefit Minty Fresh Striped Toothpaste 6.2oz Dentifrice,20,oral hygiene
+38662,315,Roasted Almond Butter,6,other
+26756,146,Light CocoWhip! Coconut Whipped Topping,6,other
+32115,92,93/7 Ground Beef,6,other
+20406,79,Roasted Unsalted Almonds,6,other
+39461,60,Coffee Mate French Vanilla Creamer Packets,6,other
+42828,2051,Whipped Cream Cheese,108,other creams cheeses
+42701,1892,Organic Sour Cream,108,other creams cheeses
+23734,1735,Sour Cream,108,other creams cheeses
+27323,899,Pure & Natural Sour Cream,108,other creams cheeses
+21333,860,Original Whipped Cream Cheese,108,other creams cheeses
+22035,3924,Organic Whole String Cheese,21,packaged cheese
+33731,3210,Grated Parmesan,21,packaged cheese
+4799,2508,Shredded Parmesan,21,packaged cheese
+40604,2477,Feta Cheese Crumbles,21,packaged cheese
+7781,2429,Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,21,packaged cheese
+34530,584,Organic Chicken Thighs,7,packaged meat
+46990,402,Ground Buffalo,7,packaged meat
+17454,236,Organic 90% Ground Beef,7,packaged meat
+39534,194,Grilled Chicken Strips,7,packaged meat
+41376,79,Ground Veal,7,packaged meat
+25890,3706,Boneless Skinless Chicken Breasts,49,packaged poultry
+17878,572,Grilled Chicken Breast Strips,49,packaged poultry
+27360,548,Boneless Skinless Chicken Breast Fillets,49,packaged poultry
+43565,496,Lean Ground Turky,49,packaged poultry
+4347,313,Extralean Ground Turkey Breast,49,packaged poultry
+43352,5139,Raspberries,32,packaged produce
+12341,3911,Hass Avocados,32,packaged produce
+6184,2330,Clementines,32,packaged produce
+30827,1128,Seedless Cucumbers,32,packaged produce
+8571,1120,Baby Cucumbers,32,packaged produce
+13877,278,Smoked Salmon,15,packaged seafood
+10121,210,Wild Sockeye Salmon,15,packaged seafood
+8414,171,Traditional Scottish Style Smoked Salmon,15,packaged seafood
+941,104,Smoked Atlantic Nova Salmon,15,packaged seafood
+47380,101,New York Style Nova Lox,15,packaged seafood
+21903,17636,Organic Baby Spinach,123,packaged vegetables fruits
+27966,9966,Organic Raspberries,123,packaged vegetables fruits
+39275,8222,Organic Blueberries,123,packaged vegetables fruits
+4920,6708,Seedless Red Grapes,123,packaged vegetables fruits
+40706,6511,Organic Grape Tomatoes,123,packaged vegetables fruits
+8021,2023,100% Recycled Paper Towels,54,paper goods
+2086,1400,Sustainably Soft Bath Tissue,54,paper goods
+19488,585,Select-A-Size White Paper Towels,54,paper goods
+32650,578,White Giant Paper Towel Rolls,54,paper goods
+42240,572,Ultra Soft Facial Tissues,54,paper goods
+23375,1409,Marinara Sauce,9,pasta sauce
+39619,1285,Organic Tomato Basil Pasta Sauce,9,pasta sauce
+12206,1220,Basil Pesto,9,pasta sauce
+14197,889,Tomato Paste,9,pasta sauce
+38273,850,Marinara Pasta Sauce,9,pasta sauce
+14462,749,Sliced Black Olives,110,pickled goods olives
+40233,319,Organic Kosher Dill Pickles,110,pickled goods olives
+8006,315,Chopped Organic Garlic,110,pickled goods olives
+27881,294,"Olives, Organic, Kalamata, Pitted",110,pickled goods olives
+29439,271,"Wild Non-Pareil Capers, Sunkissed in the Mediterranean",110,pickled goods olives
+31801,235,9 Inch Plates,111,plates bowls cups flatware
+15680,161,Red Plastic Cups,111,plates bowls cups flatware
+28031,128,"8.5\"" Microwavable Cut Resistant Plates",111,plates bowls cups flatware
+39132,128,Plastic Cup Squared Base - 30 CT,111,plates bowls cups flatware
+32085,120,Grab 'N Go® Cups & Lids 12 Ounce,111,plates bowls cups flatware
+3599,994,Baked Aged White Cheddar Rice and Corn Puffs,23,popcorn jerky
+15902,927,100 Calorie  Per Bag Popcorn,23,popcorn jerky
+25513,792,Boomchickapop Sea Salt Popcorn,23,popcorn jerky
+9755,644,Original Popcorn,23,popcorn jerky
+1700,635,White Cheddar Popcorn,23,popcorn jerky
+38293,1806,Ground Turkey Breast,35,poultry counter
+6046,1679,Boneless Skinless Chicken Breast,35,poultry counter
+17461,1242,Air Chilled Organic Boneless Skinless Chicken Breasts,35,poultry counter
+9020,772,Boneless Skinless Chicken Thighs,35,poultry counter
+21927,583,Organic Boneless Skinless Chicken Breast,35,poultry counter
+28373,566,Original Rotisserie Chicken,13,prepared meals
+7916,459,Grilled Chicken Breast,13,prepared meals
+17027,350,Avocado Roll,13,prepared meals
+30795,252,Sesame Seaweed Salad,13,prepared meals
+18583,218,Taboule Salad,13,prepared meals
+26047,389,Tuna Salad,1,prepared soups salads
+25199,371,Classic Chicken Salad,1,prepared soups salads
+22281,309,Chicken Noodle Soup,1,prepared soups salads
+21560,289,Cut Hearts Of Palm,1,prepared soups salads
+23719,214,Chicken Tortilla Soup,1,prepared soups salads
+13535,1197,Organic Medium Salsa,51,preserved dips spreads
+13829,1020,Mild Salsa,51,preserved dips spreads
+28535,621,Cucumber & Garlic  Tzatziki,51,preserved dips spreads
+19370,353,Roasted Tomato Salsa,51,preserved dips spreads
+7600,338,Mild Chunky Salsa,51,preserved dips spreads
+14650,183,Vanilla Whey Protein Powder,65,protein meal replacements
+16825,91,Vegan Smooth Chocolate Nutritional Shake,65,protein meal replacements
+19182,87,Vanilla Almond Builder's Protein Bar,65,protein meal replacements
+10862,82,Natural Chocolate Flavor Whey Protein Powder,65,protein meal replacements
+31997,79,Viva Vanilla Flavor Protein Smoothie Powder Drink Mix,65,protein meal replacements
+33065,427,Cabernet Sauvignon,28,red wines
+12013,272,Pinot Noir,28,red wines
+27885,164,Malbec,28,red wines
+49544,118,Cabernet Sauvignon Wine,28,red wines
+6878,100,Red Blend,28,red wines
+3957,2527,100% Raw Coconut Water,31,refrigerated
+25146,1837,Original Orange Juice,31,refrigerated
+30776,1547,Organic Raw Kombucha Gingerade,31,refrigerated
+31683,1441,Original No Pulp 100% Florida Orange Juice,31,refrigerated
+41290,1429,Lemonade,31,refrigerated
+4357,248,Organic Chocolate Almondmilk Pudding,71,refrigerated pudding desserts
+32981,233,Original Recipe Rice Pudding,71,refrigerated pudding desserts
+8758,195,Orignial Recipe Chocolate Pudding,71,refrigerated pudding desserts
+15134,184,Strawberry Gelatin,71,refrigerated pudding desserts
+46203,149,Original Strawberry Gelatin Snacks,71,refrigerated pudding desserts
+24382,579,Ranch Dressing,89,salad dressing toppings
+38720,187,Real French Vinaigrette Dressing,89,salad dressing toppings
+7821,162,Olive Oil & Vinegar Dressing,89,salad dressing toppings
+7228,161,Organic Italian Dressing,89,salad dressing toppings
+20431,161,Organic Ranch Dressing,89,salad dressing toppings
+10017,1014,Tilapia Filet,39,seafood counter
+35629,217,Coho Salmon,39,seafood counter
+5933,142,Wild Caught Frozen Sockeye Salmon Fillet,39,seafood counter
+33568,117,Fresh Tilapia Fillet,39,seafood counter
+20280,109,Jumbo Lump Crab Cake,39,seafood counter
+18142,35,SkinTherapy Moisturizing Shave Gel,55,shave needs
+35165,35,Fusion ProGlide Power Men's Razor Blade Refills,55,shave needs
+24002,31,"Shaving Cream, Soothing Aloe",55,shave needs
+43990,31,Soleil Twilight Triple Blade Disposable Razor for Women,55,shave needs
+46113,28,1 Razor Handle and 2 Freesia Scented Razor Refills  Premium BladeRazor System,55,shave needs
+26475,60,Sensitive Facial Cleansing Towelettes,109,skin care
+26367,45,Alcohol-Free Witch Hazel Rose Petal Toner,109,skin care
+42052,29,Lavender Hand Sanitizer,109,skin care
+16082,24,Brightening Facial Scrub Sea Kelp + CGF,109,skin care
+18529,23,"Towelettes, Make Up Removing, Face",109,skin care
+12312,442,Lavender Hand Soap,25,soap
+27544,347,Lemon Verbena Hand Soap,25,soap
+39162,209,Clean Day Basil Hand Soap,25,soap
+2996,139,Honeysuckle Hand Soap,25,soap
+32463,132,Olive Oil & Aloe Vera Hand Soap,25,soap
+196,2674,Soda,77,soft drinks
+10957,1214,Fridge Pack Cola,77,soft drinks
+12916,1074,Ginger Ale,77,soft drinks
+47141,960,Cola,77,soft drinks
+16696,824,Coke Classic,77,soft drinks
+45535,1078,Organic Low Sodium Chicken Broth,69,soup broth bouillon
+46720,964,Organic Free Range Chicken Broth,69,soup broth bouillon
+5769,880,Organic Chicken Stock,69,soup broth bouillon
+1999,791,Organic Chicken Broth,69,soup broth bouillon
+9092,785,Organic Vegetable Broth,69,soup broth bouillon
+35951,3940,Organic Unsweetened Almond Milk,91,soy lactosefree
+24838,3778,Unsweetened Almondmilk,91,soy lactosefree
+47144,2653,Unsweetened Original Almond Breeze Almond Milk,91,soy lactosefree
+432,2226,Vanilla Almond Breeze Almond Milk,91,soy lactosefree
+43295,2093,Unsweetened Vanilla Almond Milk,91,soy lactosefree
+37524,796,Fresh Mozzarella Ball,2,specialty cheeses
+13409,352,Dubliner Wedge Pre Cut Cheese,2,specialty cheeses
+11710,307,Fresh Mozzarella Snacking Cheese,2,specialty cheeses
+11046,231,Humboldt Fog,2,specialty cheeses
+7041,230,Pecorino Romano,2,specialty cheeses
+37923,137,Prosecco Sparkling Wine,134,specialty wines champagnes
+10607,75,Prosecco,134,specialty wines champagnes
+36885,68,Rose,134,specialty wines champagnes
+20704,65,Brut,134,specialty wines champagnes
+24362,54,Brut Sparkling Wine,134,specialty wines champagnes
+9327,476,Garlic Powder,104,spices seasonings
+7746,413,Oregano,104,spices seasonings
+40136,318,Original Taco Seasoning Mix,104,spices seasonings
+5621,315,Sea Salt Fine Crystals,104,spices seasonings
+13212,311,Ground Black Pepper,104,spices seasonings
+45190,374,Vodka,124,spirits
+27652,106,Handmade Vodka,124,spirits
+29509,89,80  Vodka Holiday Edition,124,spirits
+35419,64,"Handmade Vodka From Austin, Texas",124,spirits
+31154,55,Frontier Whiskey,124,spirits
+16953,1647,Creamy Peanut Butter,88,spreads
+30450,1548,Creamy Almond Butter,88,spreads
+43713,1320,Organic Creamy Peanut Butter,88,spreads
+42356,1111,Strawberry Preserves,88,spreads
+37220,815,Organic Strawberry Fruit Spread,88,spreads
+44292,431,Premium Unsweetened Iced Tea,94,tea
+4462,399,Pink Lady Apple Kombucha,94,tea
+10312,339,Zen Tea,94,tea
+35749,272,Ginger Tea,94,tea
+45223,227,Just Green Unsweetened Tea,94,tea
+42585,2164,Organic Extra Firm Tofu,14,tofu meat alternatives
+41588,764,Firm Tofu,14,tofu meat alternatives
+31342,274,Organic SprouTofu Extra Firm Tofu,14,tofu meat alternatives
+7673,265,Organic SprouTofu Super Firm Tofu,14,tofu meat alternatives
+2344,264,Organic SprouTofu Savory Baked Tofu,14,tofu meat alternatives
+19508,1075,Corn Tortillas,128,tortillas flat bread
+29553,702,Super Soft Taco Flour Tortillas,128,tortillas flat bread
+11461,569,White Corn Tortillas,128,tortillas flat bread
+19816,554,Sonoma Traditional Flour Tortillas 10 Count,128,tortillas flat bread
+40348,521,Large Burrito Flour Tortillas,128,tortillas flat bread
+37710,983,Trail Mix,125,trail mix snack mix
+25072,347,Organic Cheddar Snack Mix,125,trail mix snack mix
+26282,233,"Organic Snack Mix Bunnies Snack Mix, Organic",125,trail mix snack mix
+40285,193,Traditional Snack Mix,125,trail mix snack mix
+21603,120,Blueberry Blaze Trail Mix,125,trail mix snack mix
+49113,355,Tall Kitchen Drawstring Bags,60,trash bags liners
+38300,238,Tall Kitchen Bag With Febreze Odor Shield,60,trash bags liners
+8075,160,Small Compostable Waste Bag,60,trash bags liners
+20607,137,Fresh Vanilla Odor Shield Tall 13 Gallon Drawstring Bags,60,trash bags liners
+38949,119,Febreze Fresh Clean Garbage Bags,60,trash bags liners
+2238,204,Vitamin C Super Orange Dietary Supplement,47,vitamins supplements
+2309,194,Organic Ground Flaxseed,47,vitamins supplements
+13170,53,"Tangerine 1,000 mg Vitamin C Dietary Supplement",47,vitamins supplements
+16042,49,Maca Powder,47,vitamins supplements
+29780,44,"Vitamin C 1,000 mg Raspberry  Dietary Supplement",47,vitamins supplements
+44632,5792,Sparkling Water Grapefruit,115,water seltzer sparkling water
+19660,4002,Spring Water,115,water seltzer sparkling water
+35221,3439,Lime Sparkling Water,115,water seltzer sparkling water
+33198,3204,Sparkling Natural Mineral Water,115,water seltzer sparkling water
+21709,2480,Sparkling Lemon Water,115,water seltzer sparkling water
+2120,545,Sauvignon Blanc,62,white wines
+38444,386,Chardonnay,62,white wines
+1160,226,Pinot Grigio,62,white wines
+36425,147,Chardonnay Wine,62,white wines
+16753,53,Pinot Grigio Wine,62,white wines
+33754,1977,Total 2% with Strawberry Lowfat Greek Strained Yogurt,120,yogurt
+20842,1887,Total 0% Greek Yogurt,120,yogurt
+46676,1863,Total 0% Nonfat Greek Yogurt,120,yogurt
+39475,1786,Total Greek Strained Yogurt,120,yogurt
+18523,1568,Total 2% All Natural Greek Strained Yogurt with Honey,120,yogurt

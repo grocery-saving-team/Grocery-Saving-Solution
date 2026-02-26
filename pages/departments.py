@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-#SESSION STATE INITIALIZATION
-def init_state():
+#Session state initialization for Departments page
+def init_dep_state():
     defaults = {
         "show_all": False,
         "submitted_departments": [],
@@ -13,18 +13,19 @@ def init_state():
         if key not in st.session_state:
             st.session_state[key] = value
 
-# RENDER FUNCTION
+# Render function for Departments page
 def render_departments():
-    init_state()
-
+    init_dep_state()
+    # Load department data
     df = pd.read_csv("data/departments.csv")
+    # Extract department list
     departments = df["department"].dropna().astype(str).tolist()
-
+    # Create two columns for layout
     left, right = st.columns([1, 1.2], gap="large")
 
-    # ================= LEFT PANEL =================
+    # Left panel for department selection
     with left:
-
+        # Title and anchor for styling
         st.markdown('<div class="department-aisle-title">List of Department</div>', unsafe_allow_html=True)
         st.markdown('<div class="department-aisle-anchor"></div>', unsafe_allow_html=True)
 
@@ -75,78 +76,128 @@ def render_departments():
             st.session_state.submitted_departments = selected.copy()
             st.session_state.show_bundle = True
 
-    # ================= RIGHT PANEL =================
+    # Right panel for bundle recommendations
     with right:
-
+        # Title and anchor for styling
         st.markdown('<div class="bundle-title">Bundle Recommendation</div>', unsafe_allow_html=True)
         st.markdown('<div class="bundle-anchor"></div>', unsafe_allow_html=True)
-
-        # Mock recommendation data 
-        recommend_map = {
-            "beverages": ["Banana","Milk","Bread","Egg","Apple","Cheese","Rice","Yogurt"],
-            "breakfast": ["Coffee","Sugar","Milk","Bread","Butter","Jam","Egg"],
-            "alcohol": ["Soda","Ice","Lemon","Snack","Peanut","Chips"],
-            "bakery": ["Butter","Milk","Jam","Egg","Flour"],
-            "babies": ["Diaper","Wipes","Milk Powder","Baby Lotion"]
-        }
-
-        # Use only submitted departments (prevents rerun reset)
-        selected = st.session_state.submitted_departments
-
-        # Render recommendations 
-        if st.session_state.show_bundle and selected:
-
-            display_bundles = []
-
+        # Check if we should show bundle recommendations
+        if st.session_state.show_bundle and st.session_state.submitted_departments:
+            # Load bundle data
+            bundle_df = pd.read_csv("data/bundle_top10_by_department.csv")
+            selected = st.session_state.submitted_departments
+            # Loop through selected departments and display bundles
             for dept in selected:
 
-                # Normalize key for matching dictionary
                 dept_key = dept.strip().lower()
-                items = recommend_map.get(dept_key, [])
 
-                # Skip departments without recommendation
-                if not items:
+                dept_bundle_full = (
+                    bundle_df[bundle_df["department"].str.lower() == dept_key]
+                    .sort_values("lift", ascending=False)
+                )
+                # If no bundles found, show info message
+                if dept_bundle_full.empty:
+                    st.info(f"No bundle recommendations found for {dept.title()}. Explore top-selling products below.")
                     continue
+                # Department header
+                st.markdown(
+                    f"""
+                    <div class="dept-bundle-title">
+                        Bundles we found for <strong>{dept.title()}</strong>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
-                # Pretty display name
-                pretty_dept = dept.title()
+                # Toggle key for this department's bundle list
+                toggle_key = f"show_all_{dept_key}"
 
-                bundle = [pretty_dept] + items
-                display_bundles.append(bundle)
+                if toggle_key not in st.session_state:
+                    st.session_state[toggle_key] = False
 
-            # No recommendations found
-            if not display_bundles:
-                st.warning("No bundle recommendation found for selected department(s)")
-                return
+                # Show first 6 or full list
+                if not st.session_state[toggle_key]:
+                    dept_bundle = dept_bundle_full.head(6)
+                else:
+                    dept_bundle = dept_bundle_full
 
-            # Render bundle rows 
-            for bundle in display_bundles:
+                # Render bundle recommendations in two columns
+                col1, col2 = st.columns(2, gap="large")
 
-                html = '<div class="bundle-row">'
+                for i, (_, row) in enumerate(dept_bundle.iterrows()):
 
-                for i, item in enumerate(bundle):
+                    html = '<div class="bundle-row">'
 
-                    card_class = "bundle-card"
+                    # Base product
+                    html += f'<div class="bundle-card">{row["product_name_base"]}</div>'
 
-                    # First card = department context
-                    if i == 0:
-                        card_class += " bundle-dept"
+                    # Recommended product
+                    html += f'''
+                        <div class="bundle-card best-item">
+                            <span class="best-badge"></span>
+                            {row["product_name_recommended"]}
+                        </div>
+                    '''
 
-                    # Second card = strongest recommendation
-                    elif i == 1:
-                        card_class += " best-item"
+                    html += '</div>'
 
-                    html += f'<div class="{card_class}">{item}</div>'
+                    # Alternate between columns (3-3 layout)
+                    if i % 6 < 3:
+                        col1.markdown(html, unsafe_allow_html=True)
+                    else:
+                        col2.markdown(html, unsafe_allow_html=True)
 
-                html += '</div>'
-                st.markdown(html, unsafe_allow_html=True)
+                # Show toggle button if more than 6 bundles
+                
+                if not st.session_state[toggle_key] and len(dept_bundle_full) > 6:
 
+                    # Use unique keys for each button to avoid conflicts
+                    if st.button(f"🔽", key=f"btn_more_{dept_key}"):
+                        st.session_state[toggle_key] = True
+                        st.rerun()
+                    
+                # If already showing full list, offer option to collapse back
+                elif st.session_state[toggle_key]:
+
+                    # Use unique keys for each button to avoid conflicts
+                    if st.button(f"🔼", key=f"btn_less_{dept_key}"):
+                        st.session_state[toggle_key] = False
+                        st.rerun()
+                
         else:
             st.info("Select department(s) and click Submit")
+    # Top products section (only shows after bundle recommendations are triggered)
+    if st.session_state.show_bundle and st.session_state.submitted_departments:
+        # Load top products data
+        product_df = pd.read_csv("data/top5_selling_by_department.csv")
+        selected = st.session_state.submitted_departments
 
+        # Build entire HTML for top products section in one go to avoid Streamlit's multiple render issues
+        html_output = f"""
+        <div class="top-wrapper-main">
+            <div class="top-title-main">Top 5 Best-Selling Products</div>
+            <div class="top-subtitle">Based on your selected departments</div>
+        """
+        # Loop through selected departments and append their top products to the HTML
+        for dept in selected:
+            dept_products = product_df[product_df["department"].str.lower() == dept].sort_values("total_orders", ascending=False).head(5)
+            if dept_products.empty: continue
+            # Department header
+            html_output += f"<div class='dept-header'>Bestsellers in {dept.capitalize()}</div>"
+            
+            # Product cards row
+            html_output += '<div class="product-row">'
+            
+            for i, (_, row) in enumerate(dept_products.iterrows()):
+                badge = '<span class="badge-bestseller ">🔥 Bestseller</span>' if i == 0 else ''
+                
+                html_output += f'<div class="card-unit">{badge}<div class="bundle-card">{row["product_name"]}</div></div>'
+                
+            html_output += '</div>' 
 
+        html_output += "</div>" 
 
-
-
+        # Render the entire section at once to ensure styles are applied correctly
+        st.markdown(html_output.replace('\n', ''), unsafe_allow_html=True)
 
 

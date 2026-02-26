@@ -1,6 +1,6 @@
 /*Layout fix Streamlit */
 .block-container{
-    padding-top:0.4rem;
+    padding-top:0.2rem;
 }
 /* Remove default margins and padding from hr */
 hr {
@@ -13,7 +13,7 @@ hr {
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:20px 40px;
+    padding:14px 28px;
     margin-bottom:10px;
     background: linear-gradient(
         180deg,
@@ -31,7 +31,7 @@ hr {
 
 /* Logo */
 .logo{
-    font-size: 35px;
+    font-size: 28px;
     font-weight:700;
     color:#4ff48b !important;
     text-decoration:none !important;
@@ -49,7 +49,7 @@ hr {
 .menu a{
     color:#cbd5e1;
     text-decoration:none !important;
-    font-size:20px;      
+    font-size:16px;      
     font-weight:600;
     padding-bottom:10px;
     transition:.2s;
@@ -86,38 +86,37 @@ hr {
     background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e");
     background-size: cover;
     background-position: center;
-    padding: 90px;
+    padding: 60px;
     border-radius: 28px;
 }
-
+/* Overlay for better text visibility */
 .hero-content {
     background: rgba(0, 0, 0, 0.55);
-    padding: 40px;
+    padding: 25px;
     border-radius: 22px;
     max-width: 900px;
     margin: auto;
     text-align: center;
 }
-
+/* Hero text */
 .hero-content h1 {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 12px;
 }
-
+/* Hero subtext */
 .hero-content p {
     color: #dddddd;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-/* 
-   CARD (CLICKABLE) Homepage
-*/
+/* CARD (CLICKABLE) Homepage */
 .card-link {
     text-decoration: none;
     color: inherit;
 }
-
+/* Card box */
 .card-box {
     background: #ffffff;
     padding: 40px;
@@ -127,25 +126,23 @@ hr {
     min-height: 260px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-
+/* Hover effect for card */
 .card-box:hover {
     transform: translateY(-6px);
     box-shadow: 0 22px 44px rgba(0, 0, 0, 0.18);
 }
-
+/* Card title */
 .card-box h3 {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
 }
-
+/* Card description */
 .card-box p {
     color: #666666;
-    font-size: 14.5px;
+    font-size: 13px;
     margin-top: 10px;
 }
-
-
 /* MENU BUTTONS */
 section div.stButton > button {
     all: unset;
@@ -173,12 +170,13 @@ section div.stButton > button:active {
 section div.stButton > button:focus {
     outline: none;
 }
+/* Ensure links inside cards don't have default styles */
 .card-link,
 .card-link h3,
 .card-link p {
     text-decoration: none !important;
 }
-
+/* Hover effect for card links */
 .card-link:hover h3 {
     color: #2e7d32;
 }
@@ -227,6 +225,34 @@ div[data-testid="stExpander"] summary {
 div[data-testid="stExpander"] summary span {
     margin-right: 10px;
 }
+/* Dashboard wide card */
+.dashboard-wide {
+    width: 100%;
+    margin: 8px auto;
+    padding: 20px 0;
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    box-shadow: 0 10px 30px rgba(46,125,50,0.3);
+    min-height: 100px;
+}
+
+.dashboard-wide h3 {
+    color: #2e7d32;
+    font-weight: 700;
+    align-items: center;
+}
+
+.dashboard-wide p {
+    color: #555;
+}
+
+.dashboard-wide img {
+    width: 130px;           
+    margin-bottom: 4px;
+    align-items: center;
+}
 
 /* DEPARTMENT AISLE PANEL*/
 /*  PANEL LAYOUT */
@@ -243,8 +269,8 @@ div[data-testid="stExpander"] summary span {
 }
 
 /* TITLES */
-.department-aisle-title, .bundle-title{
-    font-size:26px;
+.department-aisle-title{
+    font-size:22px;
     font-weight:600;
     text-align:center;
     margin-bottom:16px;
@@ -280,11 +306,11 @@ button[kind="secondary"]:hover{
 /* PRIMARY BUTTON (SUBMIT) */
 button[kind="primary"]{
     width:100% !important;
-    padding:16px 0 !important;
+    padding:12px 0 !important;
 
     background:#66a96b !important;
     color:white !important;
-    font-size:24px !important;
+    font-size:18px !important;
     font-weight:700 !important;
 
     border-radius:18px !important;
@@ -292,7 +318,7 @@ button[kind="primary"]{
     box-shadow:0 10px 22px rgba(0,0,0,.35) !important;
     text-decoration: none !important;
 }
-
+/* Hover effect for primary button */
 button[kind="primary"]:hover{
     background:#7ec784 !important;
     transform:translateY(-2px);
@@ -300,9 +326,17 @@ button[kind="primary"]:hover{
 /* DEPARTMENT & BUNDLE RECOMMENDATION*/
 .bundle-title{
     color:#2dab62 !important;  
-    font-size:26px;
+    font-size:22px;
      font-weight:600;
+     margin-bottom:8px;
+     text-align:center
 
+}
+.dept-bundle-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0 15px 5px;
+    color: #2E7D32;
 }
 /* BUNDLE ROW */
 .bundle-row{
@@ -328,27 +362,33 @@ button[kind="primary"]:hover{
     background:#2e7dff;
     border-radius:10px;
 }
-
+/* Bundle anchor */
+.bundle-anchor{
+    text-decoration:none !important;
+    color:inherit !important;
+}
 /* Bundle card */
 .bundle-card{
-    min-width:150px;
+    min-width:100px;
     flex:0 0 auto;
 
     background:#e6d59a;
     color:#1f2937;
 
-    padding:20px 10px;
+    padding:10px 8px;
     text-align:center;
-    border-radius:14px;
-    font-weight:600;
-    font-size:16px;
+    border-radius:8px;
+    font-weight:600
+    ;
+    font-size:10px;
     transition:.2s;
 }
-
+/* Hover effect for bundle card */
 .bundle-card:hover{
-    transform:translateY(-4px);
-    box-shadow:0 10px 20px rgba(0,0,0,.25);
+    transform:translateY(-2px);
+    box-shadow:0 6px 14px rgba(0,0,0,.25);
 }
+/* Department card */
 .bundle-dept{
     background:#25782a;
     color:white;
@@ -370,10 +410,88 @@ button[kind="primary"]:hover{
     background:#2e7dff;
     color:white;
 
-    padding:4px 10px;
-    font-size:13px;
+    padding:3px 8px;
+    font-size:11px;
     font-weight:700;
     border-radius:20px;
 
     box-shadow:0 4px 10px rgba(0,0,0,.25);
+}
+/* Style View More / Show Less buttons */
+.view-more-btn [data-testid="stButton"] button:hover {
+    background-color: #1e7e34 !important; 
+    transform: scale(1.15);               
+}
+/* White background for top list*/
+.top-wrapper-main {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    color: #333333; 
+}
+/* Title for top list */
+.top-title-main {
+    color: #2E7D32;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.top-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+/* Department header */
+.dept-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    text-align: left;
+}
+/* Product row layout */
+.product-row {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 15px;        
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+/* Individual product card */
+.card-unit {
+    flex: 1;           
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 14px;
+}
+/* Badge for bestsellers */
+.badge-bestseller {
+    position: absolute;
+    top: 0; 
+    left: 15px;
+   
+    transform: translateY(-50%); 
+    z-index: 99;
+
+    background: #ffb347;
+    color: white;
+    padding: 3px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    white-space: nowrap;
+}
+/* Empty badge for alignment */
+.badge-empty {
+    height: 18px; 
+}
+/*Dashboard title */
+.dashboard-title {
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }

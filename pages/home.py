@@ -1,49 +1,22 @@
 import streamlit as st
 
-# from data_loader import load_data
-from features import build_rfm
-from clustering import add_clusters
-from plots import (
-    top_products_pie,
-    boxplot_orders_by_cluster,
-    users_per_cluster,
-    orders_distribution,
-)
-
-# @st.cache_data
-# def load_all():
-#     df = load_data()
-#     rfm = build_rfm(df)
-#     rfm = add_clusters(rfm)
-#     return df, rfm
-
-
+# This is the home page with a hero section and navigation cards to other pages
 def render_home():
-
-    # ======================
-    # LOAD DATA
-    # ======================
-    # df, rfm = load_all()
-
-    # ======================
-    # HERO
-    # ======================
+    # HERO SECTION
     st.markdown("""
     <div class="hero">
         <div class="hero-content">
             <h1>Turn raw grocery data into actionable insights</h1>
-            <p>Using advanced data mining, we reveal what customers buy together</p>
+            <p>This web application transforms raw grocery transaction data into interactive analytical insights. By examining product associations, bundle lift scores, department performance, and top-selling trends, the system reveals meaningful patterns in consumer purchasing behavior. The goal is to demonstrate how data mining techniques can support smarter retail decisions through practical, real-world analytics.</p>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     st.markdown("<br><br>", unsafe_allow_html=True)
 
-    # ======================
-    # NAVIGATION CARDS
-    # ======================
+    # Navigation cards to other pages
     col1, col2 = st.columns(2)
-
+    # Navigation card 1 - Departments
     with col1:
         st.markdown("""
         <a href="?page=DEPARTMENTS" class="card-link">
@@ -54,7 +27,7 @@ def render_home():
             </div>
         </a>
         """, unsafe_allow_html=True)
-
+    # Navigation card 2 - Aisle
     with col2:
         st.markdown("""
         <a href="?page=AISLE" class="card-link">
@@ -68,41 +41,18 @@ def render_home():
 
     st.markdown("<br><br>", unsafe_allow_html=True)
 
-    # ======================
-    # CHART SELECTOR
-    # ======================
-    
-    
+    # Navigation card 3 - Dashboard (full width)
+
     st.markdown("""
-    <div class="chart-selector">
-        <p>Select the chart you want to explore from the list below</p>
-    </div>
+    <a href="?page=DASHBOARD" class="card-link">
+        <div class="card-box dashboard-wide">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu-gALsAaxPAv3KTAdtYBsVhqQr1DNq-Cbzg&s" width="80"/>
+            <h3>Dashboard</h3>
+            <p>Explore interactive charts and business insights</p>
+        </div>
+    </a>
     """, unsafe_allow_html=True)
 
-    # ======================
-    # CHART ACCORDION STYLE
-    # ======================
-
-    # with st.expander("📊 Top 10 Products", expanded=False):
-    #     st.plotly_chart(
-    #         top_products_pie(df),
-    #         use_container_width=True
-    #     )
-
-    # with st.expander("📊 Order Frequency by Segment", expanded=False):
-    #     st.pyplot(
-    #         boxplot_orders_by_cluster(rfm)
-    #     )
-
-    # with st.expander("👥 Customer Distribution", expanded=False):
-    #     st.pyplot(
-    #         users_per_cluster(rfm)
-    #     )
-
-    # with st.expander("📈 Orders Distribution", expanded=False):
-    #     st.pyplot(
-    #         orders_distribution(rfm)
-    #     )
 
 
 
