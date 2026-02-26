@@ -1,33 +1,257 @@
 antecedents,Source_of_antecedents,consequents,Source_of_consequents,support,confidence,lift
-frozenset({'31717'}),['Organic Cilantro'],frozenset({'26209'}),['Limes'],0.003823824941386625,0.1786179921773142,5.165072981217767
-frozenset({'26209'}),['Limes'],frozenset({'31717'}),['Organic Cilantro'],0.003823824941386625,0.1105730427764326,5.165072981217766
-frozenset({'22935'}),['Organic Yellow Onion'],frozenset({'24964'}),['Organic Garlic'],0.0032935134531651223,0.12526539278131635,4.670144112975028
-frozenset({'24964'}),['Organic Garlic'],frozenset({'22935'}),['Organic Yellow Onion'],0.0032935134531651223,0.12278876170655567,4.670144112975028
-frozenset({'26209'}),['Limes'],frozenset({'47626'}),['Large Lemon'],0.004298314167690075,0.12429378531073446,3.4124120613892677
-frozenset({'47626'}),['Large Lemon'],frozenset({'26209'}),['Limes'],0.004298314167690075,0.11800766283524904,3.4124120613892672
-frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'47209'}),['Organic Hass Avocado'],0.00401920285809981,0.08401400233372229,2.4432253860491904
-frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'13176'}),['Bag of Organic Bananas'],0.00401920285809981,0.1168831168831169,2.4432253860491904
-frozenset({'24852'}),['Banana'],frozenset({'47766'}),['Organic Avocado'],0.004800714524952551,0.08289156626506025,2.398900675399498
-frozenset({'47766'}),['Organic Avocado'],frozenset({'24852'}),['Banana'],0.004800714524952551,0.13893376413570274,2.398900675399498
-frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'47209'}),['Organic Hass Avocado'],0.0032935134531651223,0.07866666666666666,2.2877186147186146
-frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'21903'}),['Organic Baby Spinach'],0.0032935134531651223,0.09577922077922078,2.2877186147186146
-frozenset({'39275'}),['Organic Blueberries'],frozenset({'21137'}),['Organic Strawberries'],0.0030702244054929104,0.1055662188099808,2.281198122752709
-frozenset({'21137'}),['Organic Strawberries'],frozenset({'39275'}),['Organic Blueberries'],0.0030702244054929104,0.06634499396863691,2.281198122752709
-frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'21903'}),['Organic Baby Spinach'],0.004437869822485207,0.0927654609101517,2.2157339556592763
-frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'13176'}),['Bag of Organic Bananas'],0.004437869822485207,0.106,2.2157339556592763
-frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'21137'}),['Organic Strawberries'],0.004856536786870604,0.1015169194865811,2.193696134719679
-frozenset({'21137'}),['Organic Strawberries'],frozenset({'13176'}),['Bag of Organic Bananas'],0.004856536786870604,0.10494571773220748,2.193696134719679
-frozenset({'47766'}),['Organic Avocado'],frozenset({'21903'}),['Organic Baby Spinach'],0.0030702244054929104,0.08885298869143779,2.1222832525578887
-frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'47766'}),['Organic Avocado'],0.0030702244054929104,0.07333333333333332,2.1222832525578887
-frozenset({'21137'}),['Organic Strawberries'],frozenset({'47209'}),['Organic Hass Avocado'],0.0031260466674109637,0.0675512665862485,1.9644697883539868
-frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'21137'}),['Organic Strawberries'],0.0031260466674109637,0.09090909090909091,1.9644697883539863
-frozenset({'21137'}),['Organic Strawberries'],frozenset({'21903'}),['Organic Baby Spinach'],0.0037400915485095456,0.08082026537997587,1.9304189786891837
-frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'21137'}),['Organic Strawberries'],0.0037400915485095456,0.08933333333333332,1.9304189786891837
-frozenset({'16797'}),['Strawberries'],frozenset({'24852'}),['Banana'],0.003516802500837334,0.10975609756097562,1.8951043197178963
-frozenset({'24852'}),['Banana'],frozenset({'16797'}),['Strawberries'],0.003516802500837334,0.060722891566265064,1.895104319717896
-frozenset({'24852'}),['Banana'],frozenset({'21903'}),['Organic Baby Spinach'],0.004270403036731049,0.07373493975903615,1.7611836144578314
-frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'24852'}),['Banana'],0.004270403036731049,0.102,1.7611836144578312
-frozenset({'24852'}),['Banana'],frozenset({'21137'}),['Organic Strawberries'],0.004549514346321313,0.07855421686746988,1.6974912436234688
-frozenset({'21137'}),['Organic Strawberries'],frozenset({'24852'}),['Banana'],0.004549514346321313,0.09831121833534379,1.6974912436234686
-frozenset({'24852'}),['Banana'],frozenset({'47626'}),['Large Lemon'],0.0034888913698783073,0.060240963855421686,1.6538798873655542
-frozenset({'47626'}),['Large Lemon'],frozenset({'24852'}),['Banana'],0.0034888913698783073,0.09578544061302681,1.653879887365554
+frozenset({'17948'}),['Frozen Organic Wild Blueberries'],frozenset({'24489'}),['Organic Whole Strawberries'],0.001123956326268465,0.19905213270142177,31.38472613834063
+frozenset({'24489'}),['Organic Whole Strawberries'],frozenset({'17948'}),['Frozen Organic Wild Blueberries'],0.001123956326268465,0.1772151898734177,31.384726138340625
+frozenset({'15290'}),['Orange Bell Pepper'],frozenset({'2295'}),['Yellow Bell Pepper'],0.0012577606508242347,0.15460526315789475,24.480040142729706
+frozenset({'2295'}),['Yellow Bell Pepper'],frozenset({'15290'}),['Orange Bell Pepper'],0.0012577606508242347,0.19915254237288135,24.480040142729706
+frozenset({'44632'}),['Sparkling Water Grapefruit'],frozenset({'35221'}),['Lime Sparkling Water'],0.001150717191179619,0.11256544502617802,16.892954015012933
+frozenset({'35221'}),['Lime Sparkling Water'],frozenset({'44632'}),['Sparkling Water Grapefruit'],0.001150717191179619,0.17269076305220882,16.89295401501293
+frozenset({'15290'}),['Orange Bell Pepper'],frozenset({'24184'}),['Red Peppers'],0.0012845215157353885,0.15789473684210525,14.42594260712907
+frozenset({'24184'}),['Red Peppers'],frozenset({'15290'}),['Orange Bell Pepper'],0.0012845215157353885,0.11735941320293398,14.42594260712907
+frozenset({'10749'}),['Organic Red Bell Pepper'],frozenset({'21938'}),['Green Bell Pepper'],0.0010436737315350033,0.10773480662983426,9.539891597496792
+frozenset({'21938'}),['Green Bell Pepper'],frozenset({'10749'}),['Organic Red Bell Pepper'],0.0010436737315350033,0.0924170616113744,9.53989159749679
+frozenset({'21938'}),['Green Bell Pepper'],frozenset({'24184'}),['Red Peppers'],0.001177478056090773,0.10426540284360189,9.526135876429622
+frozenset({'24184'}),['Red Peppers'],frozenset({'21938'}),['Green Bell Pepper'],0.001177478056090773,0.1075794621026895,9.526135876429622
+frozenset({'20114'}),['Jalapeno Peppers'],frozenset({'26209'}),['Limes'],0.0016591736244915437,0.1751412429378531,7.6635573373556145
+frozenset({'26209'}),['Limes'],frozenset({'20114'}),['Jalapeno Peppers'],0.0016591736244915437,0.07259953161592506,7.6635573373556145
+frozenset({'26209'}),['Limes'],frozenset({'28842'}),['Bunched Cilantro'],0.0017394562192250055,0.07611241217798595,7.040021332344008
+frozenset({'28842'}),['Bunched Cilantro'],frozenset({'26209'}),['Limes'],0.0017394562192250055,0.1608910891089109,7.040021332344008
+frozenset({'26209'}),['Limes'],frozenset({'31717'}),['Organic Cilantro'],0.002167630057803468,0.09484777517564402,7.004489452101711
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'26209'}),['Limes'],0.002167630057803468,0.1600790513833992,7.004489452101711
+frozenset({'17794'}),['Carrots'],frozenset({'44359'}),['Organic Small Bunch Celery'],0.0012042389210019267,0.08379888268156424,6.188530924989511
+frozenset({'44359'}),['Organic Small Bunch Celery'],frozenset({'17794'}),['Carrots'],0.0012042389210019267,0.08893280632411067,6.188530924989511
+frozenset({'5876'}),['Organic Lemon'],frozenset({'34126'}),['Organic Italian Parsley Bunch'],0.0010436737315350033,0.0745697896749522,6.018410152426812
+frozenset({'34126'}),['Organic Italian Parsley Bunch'],frozenset({'5876'}),['Organic Lemon'],0.0010436737315350033,0.08423326133909288,6.018410152426812
+frozenset({'24964'}),['Organic Garlic'],frozenset({'46667'}),['Organic Ginger Root'],0.0012309997859130807,0.06460674157303371,5.789507719666964
+frozenset({'46667'}),['Organic Ginger Root'],frozenset({'24964'}),['Organic Garlic'],0.0012309997859130807,0.11031175059952038,5.789507719666963
+frozenset({'24964'}),['Organic Garlic'],frozenset({'34126'}),['Organic Italian Parsley Bunch'],0.0013380432455576965,0.0702247191011236,5.6677263571723255
+frozenset({'34126'}),['Organic Italian Parsley Bunch'],frozenset({'24964'}),['Organic Garlic'],0.0013380432455576965,0.1079913606911447,5.667726357172325
+frozenset({'8518'}),['Organic Red Onion'],frozenset({'31717'}),['Organic Cilantro'],0.0010436737315350033,0.07514450867052025,5.549407114624508
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'8518'}),['Organic Red Onion'],0.0010436737315350033,0.07707509881422926,5.549407114624507
+frozenset({'26209'}),['Limes'],frozenset({'47626'}),['Large Lemon'],0.0028634125454934703,0.1252927400468384,5.094601860794621
+frozenset({'47626'}),['Large Lemon'],frozenset({'26209'}),['Limes'],0.0028634125454934703,0.11643090315560391,5.094601860794621
+frozenset({'24964'}),['Organic Garlic'],frozenset({'22935'}),['Organic Yellow Onion'],0.0016591736244915437,0.08707865168539326,5.06058329110385
+frozenset({'22935'}),['Organic Yellow Onion'],frozenset({'24964'}),['Organic Garlic'],0.0016591736244915437,0.0964230171073095,5.06058329110385
+frozenset({'43352'}),['Raspberries'],frozenset({'16797'}),['Strawberries'],0.001070434596446157,0.11299435028248588,4.979213303485769
+frozenset({'16797'}),['Strawberries'],frozenset({'43352'}),['Raspberries'],0.001070434596446157,0.04716981132075471,4.979213303485769
+frozenset({'27966'}),['Organic Raspberries'],frozenset({'21137'}),['Organic Strawberries'],0.002542282166559623,0.15347334410339258,4.952497342362327
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'27966'}),['Organic Raspberries'],0.002542282166559623,0.08203799654576857,4.952497342362326
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'41950'}),['Organic Tomato Cluster'],0.0012042389210019267,0.054945054945054944,4.808400030882466
+frozenset({'41950'}),['Organic Tomato Cluster'],frozenset({'47209'}),['Organic Hass Avocado'],0.0012042389210019267,0.10538641686182669,4.808400030882466
+frozenset({'24964'}),['Organic Garlic'],frozenset({'8518'}),['Organic Red Onion'],0.0012309997859130807,0.06460674157303371,4.651685393258427
+frozenset({'8518'}),['Organic Red Onion'],frozenset({'24964'}),['Organic Garlic'],0.0012309997859130807,0.08863198458574181,4.651685393258427
+frozenset({'47766'}),['Organic Avocado'],frozenset({'31717'}),['Organic Cilantro'],0.0013380432455576965,0.06234413965087282,4.604102392240742
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'47766'}),['Organic Avocado'],0.0013380432455576965,0.09881422924901187,4.604102392240742
+frozenset({'46979'}),['Asparagus'],frozenset({'47626'}),['Large Lemon'],0.001445086705202312,0.1127348643006263,4.58397868246551
+frozenset({'47626'}),['Large Lemon'],frozenset({'46979'}),['Asparagus'],0.001445086705202312,0.05875952121871599,4.58397868246551
+frozenset({'24964'}),['Organic Garlic'],frozenset({'31717'}),['Organic Cilantro'],0.001150717191179619,0.060393258426966294,4.460030199404894
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'24964'}),['Organic Garlic'],0.001150717191179619,0.08498023715415019,4.460030199404894
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'5876'}),['Organic Lemon'],0.0013648041104688503,0.06227106227106227,4.44922572647238
+frozenset({'5876'}),['Organic Lemon'],frozenset({'47209'}),['Organic Hass Avocado'],0.0013648041104688503,0.09751434034416825,4.44922572647238
+frozenset({'4605'}),['Yellow Onions'],frozenset({'24964'}),['Organic Garlic'],0.0013380432455576965,0.08333333333333333,4.373595505617978
+frozenset({'24964'}),['Organic Garlic'],frozenset({'4605'}),['Yellow Onions'],0.0013380432455576965,0.0702247191011236,4.373595505617978
+frozenset({'17794'}),['Carrots'],frozenset({'24964'}),['Organic Garlic'],0.001177478056090773,0.08193668528864059,4.300295022283598
+frozenset({'24964'}),['Organic Garlic'],frozenset({'17794'}),['Carrots'],0.001177478056090773,0.06179775280898877,4.300295022283598
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'27966'}),['Organic Raspberries'],0.002194390922714622,0.06955046649703138,4.198645932247284
+frozenset({'27966'}),['Organic Raspberries'],frozenset({'13176'}),['Bag of Organic Bananas'],0.002194390922714622,0.1324717285945073,4.198645932247284
+frozenset({'24964'}),['Organic Garlic'],frozenset({'5876'}),['Organic Lemon'],0.001097195461357311,0.05758426966292135,4.114357531097601
+frozenset({'5876'}),['Organic Lemon'],frozenset({'24964'}),['Organic Garlic'],0.001097195461357311,0.07839388145315487,4.114357531097601
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'19057'}),['Organic Large Extra Fancy Fuji Apple'],0.0012577606508242347,0.04058721934369603,4.055249231110249
+frozenset({'19057'}),['Organic Large Extra Fancy Fuji Apple'],frozenset({'21137'}),['Organic Strawberries'],0.0012577606508242347,0.12566844919786097,4.055249231110249
+frozenset({'24964'}),['Organic Garlic'],frozenset({'44359'}),['Organic Small Bunch Celery'],0.0010169128666238493,0.05337078651685394,3.941422036683395
+frozenset({'44359'}),['Organic Small Bunch Celery'],frozenset({'24964'}),['Organic Garlic'],0.0010169128666238493,0.07509881422924902,3.941422036683395
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'13176'}),['Bag of Organic Bananas'],0.003826803682295012,0.12348877374784112,3.913934264130048
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'21137'}),['Organic Strawberries'],0.003826803682295012,0.12128922815945715,3.9139342641300474
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'26604'}),['Organic Blackberries'],0.0013915649753800043,0.044905008635578586,3.7793026186808576
+frozenset({'26604'}),['Organic Blackberries'],frozenset({'21137'}),['Organic Strawberries'],0.0013915649753800043,0.11711711711711713,3.7793026186808576
+frozenset({'22935'}),['Organic Yellow Onion'],frozenset({'45007'}),['Organic Zucchini'],0.001097195461357311,0.06376360808709176,3.746412746852901
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'22935'}),['Organic Yellow Onion'],0.001097195461357311,0.06446540880503145,3.7464127468529007
+frozenset({'27966'}),['Organic Raspberries'],frozenset({'47209'}),['Organic Hass Avocado'],0.0013380432455576965,0.08077544426494347,3.68549059986863
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'27966'}),['Organic Raspberries'],0.0013380432455576965,0.061050061050061055,3.6854905998686296
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'47209'}),['Organic Hass Avocado'],0.002542282166559623,0.08057675996607294,3.676425355814669
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'13176'}),['Bag of Organic Bananas'],0.002542282166559623,0.115995115995116,3.6764253558146684
+frozenset({'27966'}),['Organic Raspberries'],frozenset({'39275'}),['Organic Blueberries'],0.0012042389210019267,0.07269789983844911,3.61727712538371
+frozenset({'39275'}),['Organic Blueberries'],frozenset({'27966'}),['Organic Raspberries'],0.0012042389210019267,0.059920106524633816,3.61727712538371
+frozenset({'24852'}),['Banana'],frozenset({'28204'}),['Organic Fuji Apple'],0.001953543138514237,0.049224544841537425,3.60671135615406
+frozenset({'28204'}),['Organic Fuji Apple'],frozenset({'24852'}),['Banana'],0.001953543138514237,0.14313725490196078,3.6067113561540594
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'21616'}),['Organic Baby Arugula'],0.0012309997859130807,0.04364326375711575,3.5453510436432634
+frozenset({'21616'}),['Organic Baby Arugula'],frozenset({'21903'}),['Organic Baby Spinach'],0.0012309997859130807,0.09999999999999999,3.5453510436432634
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'31717'}),['Organic Cilantro'],0.0010436737315350033,0.04761904761904763,3.5166572557876914
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'47209'}),['Organic Hass Avocado'],0.0010436737315350033,0.07707509881422926,3.5166572557876914
+frozenset({'8518'}),['Organic Red Onion'],frozenset({'26209'}),['Limes'],0.001097195461357311,0.07899807321772641,3.456674473067916
+frozenset({'26209'}),['Limes'],frozenset({'8518'}),['Organic Red Onion'],0.001097195461357311,0.04800936768149883,3.4566744730679155
+frozenset({'24964'}),['Organic Garlic'],frozenset({'26209'}),['Limes'],0.00149860843502462,0.07865168539325844,3.441517774912507
+frozenset({'26209'}),['Limes'],frozenset({'24964'}),['Organic Garlic'],0.00149860843502462,0.06557377049180328,3.441517774912507
+frozenset({'47766'}),['Organic Avocado'],frozenset({'21903'}),['Organic Baby Spinach'],0.0020338257332476986,0.09476309226932668,3.3596842807592027
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'47766'}),['Organic Avocado'],0.0020338257332476986,0.07210626185958255,3.3596842807592027
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'24964'}),['Organic Garlic'],0.0013915649753800043,0.0634920634920635,3.3322632423756025
+frozenset({'24964'}),['Organic Garlic'],frozenset({'47209'}),['Organic Hass Avocado'],0.0013915649753800043,0.07303370786516854,3.332263242375602
+frozenset({'47766'}),['Organic Avocado'],frozenset({'26209'}),['Limes'],0.0016324127595803897,0.07605985037406483,3.328108300676879
+frozenset({'26209'}),['Limes'],frozenset({'47766'}),['Organic Avocado'],0.0016324127595803897,0.07142857142857142,3.328108300676879
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'39275'}),['Organic Blueberries'],0.0020605865981588524,0.06649395509499137,3.3085833741539776
+frozenset({'39275'}),['Organic Blueberries'],frozenset({'21137'}),['Organic Strawberries'],0.0020605865981588524,0.10252996005326231,3.3085833741539776
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'45007'}),['Organic Zucchini'],0.0012309997859130807,0.05616605616605617,3.3000207339829983
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'47209'}),['Organic Hass Avocado'],0.0012309997859130807,0.07232704402515723,3.3000207339829983
+frozenset({'45066'}),['Honeycrisp Apple'],frozenset({'24852'}),['Banana'],0.0014183258402911583,0.1280193236714976,3.225776188102847
+frozenset({'24852'}),['Banana'],frozenset({'45066'}),['Honeycrisp Apple'],0.0014183258402911583,0.03573836817262306,3.225776188102847
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'19057'}),['Organic Large Extra Fancy Fuji Apple'],0.0010169128666238493,0.032230703986429174,3.2203126913499607
+frozenset({'19057'}),['Organic Large Extra Fancy Fuji Apple'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0010169128666238493,0.1016042780748663,3.2203126913499607
+frozenset({'8518'}),['Organic Red Onion'],frozenset({'47626'}),['Large Lemon'],0.001097195461357311,0.07899807321772641,3.212187159956475
+frozenset({'47626'}),['Large Lemon'],frozenset({'8518'}),['Organic Red Onion'],0.001097195461357311,0.04461371055495103,3.2121871599564744
+frozenset({'47766'}),['Organic Avocado'],frozenset({'24852'}),['Banana'],0.0027296082209377005,0.12718204488778054,3.204678795257305
+frozenset({'24852'}),['Banana'],frozenset({'47766'}),['Organic Avocado'],0.0027296082209377005,0.06877950101146324,3.2046787952573044
+frozenset({'5450'}),['Small Hass Avocado'],frozenset({'24852'}),['Banana'],0.001150717191179619,0.12684365781710913,3.1961522625149925
+frozenset({'24852'}),['Banana'],frozenset({'5450'}),['Small Hass Avocado'],0.001150717191179619,0.02899527983816588,3.1961522625149925
+frozenset({'5876'}),['Organic Lemon'],frozenset({'26209'}),['Limes'],0.0010169128666238493,0.07265774378585087,3.1792442269199945
+frozenset({'26209'}),['Limes'],frozenset({'5876'}),['Organic Lemon'],0.0010169128666238493,0.04449648711943794,3.179244226919994
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'31717'}),['Organic Cilantro'],0.0012042389210019267,0.04269449715370019,3.1529801771531005
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'21903'}),['Organic Baby Spinach'],0.0012042389210019267,0.08893280632411067,3.1529801771531
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'40706'}),['Organic Grape Tomatoes'],0.0012845215157353885,0.04554079696394687,3.1455979684820083
+frozenset({'40706'}),['Organic Grape Tomatoes'],frozenset({'21903'}),['Organic Baby Spinach'],0.0012845215157353885,0.08872458410351201,3.1455979684820083
+frozenset({'24964'}),['Organic Garlic'],frozenset({'21903'}),['Organic Baby Spinach'],0.0016859344894026974,0.08848314606741572,3.137038142549517
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'24964'}),['Organic Garlic'],0.0016859344894026974,0.05977229601518026,3.137038142549517
+frozenset({'47766'}),['Organic Avocado'],frozenset({'49683'}),['Cucumber Kirby'],0.001097195461357311,0.05112219451371571,3.1316953517844732
+frozenset({'49683'}),['Cucumber Kirby'],frozenset({'47766'}),['Organic Avocado'],0.001097195461357311,0.06721311475409836,3.131695351784473
+frozenset({'47766'}),['Organic Avocado'],frozenset({'47626'}),['Large Lemon'],0.0016324127595803897,0.07605985037406483,3.0927143512274804
+frozenset({'47626'}),['Large Lemon'],frozenset({'47766'}),['Organic Avocado'],0.0016324127595803897,0.06637649619151251,3.0927143512274804
+frozenset({'4605'}),['Yellow Onions'],frozenset({'26209'}),['Limes'],0.001123956326268465,0.06999999999999999,3.062950819672131
+frozenset({'26209'}),['Limes'],frozenset({'4605'}),['Yellow Onions'],0.001123956326268465,0.04918032786885245,3.0629508196721305
+frozenset({'4605'}),['Yellow Onions'],frozenset({'47626'}),['Large Lemon'],0.0012042389210019267,0.07499999999999998,3.0496191512513593
+frozenset({'47626'}),['Large Lemon'],frozenset({'4605'}),['Yellow Onions'],0.0012042389210019267,0.04896626768226332,3.0496191512513593
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0027028473560265468,0.09582542694497154,3.0371539898894793
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'21903'}),['Organic Baby Spinach'],0.0027028473560265468,0.08566581849024596,3.0371539898894793
+frozenset({'27845'}),['Organic Whole Milk'],frozenset({'24852'}),['Banana'],0.001445086705202312,0.12026726057906457,3.030443016398169
+frozenset({'24852'}),['Banana'],frozenset({'27845'}),['Organic Whole Milk'],0.001445086705202312,0.036412677006068775,3.030443016398169
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'30391'}),['Organic Cucumber'],0.0012845215157353885,0.04145077720207254,3.0134876312977563
+frozenset({'30391'}),['Organic Cucumber'],frozenset({'21137'}),['Organic Strawberries'],0.0012845215157353885,0.09338521400778209,3.013487631297756
+frozenset({'47766'}),['Organic Avocado'],frozenset({'24964'}),['Organic Garlic'],0.0012309997859130807,0.05735660847880299,3.010255260724593
+frozenset({'24964'}),['Organic Garlic'],frozenset({'47766'}),['Organic Avocado'],0.0012309997859130807,0.06460674157303371,3.010255260724593
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'47209'}),['Organic Hass Avocado'],0.0020338257332476986,0.06563039723661486,2.994477025565109
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'21137'}),['Organic Strawberries'],0.0020338257332476986,0.0927960927960928,2.9944770255651085
+frozenset({'24852'}),['Banana'],frozenset({'49683'}),['Cucumber Kirby'],0.0019267822736030828,0.048550236008091704,2.974139703525198
+frozenset({'49683'}),['Cucumber Kirby'],frozenset({'24852'}),['Banana'],0.0019267822736030828,0.1180327868852459,2.974139703525198
+frozenset({'24964'}),['Organic Garlic'],frozenset({'47626'}),['Large Lemon'],0.0013915649753800043,0.07303370786516854,2.969666589233534
+frozenset({'47626'}),['Large Lemon'],frozenset({'24964'}),['Organic Garlic'],0.0013915649753800043,0.056583242655059846,2.969666589233534
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'42265'}),['Organic Baby Carrots'],0.001123956326268465,0.03984819734345351,2.9254370104718483
+frozenset({'42265'}),['Organic Baby Carrots'],frozenset({'21903'}),['Organic Baby Spinach'],0.001123956326268465,0.08251473477406679,2.925437010471848
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'49683'}),['Cucumber Kirby'],0.0013380432455576965,0.04743833017077799,2.9060254456092327
+frozenset({'49683'}),['Cucumber Kirby'],frozenset({'21903'}),['Organic Baby Spinach'],0.0013380432455576965,0.0819672131147541,2.9060254456092327
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'21903'}),['Organic Baby Spinach'],0.0013915649753800043,0.08176100628930817,2.898714689771222
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'45007'}),['Organic Zucchini'],0.0013915649753800043,0.04933586337760911,2.898714689771222
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'30391'}),['Organic Cucumber'],0.001123956326268465,0.03984819734345351,2.8969794520042234
+frozenset({'30391'}),['Organic Cucumber'],frozenset({'21903'}),['Organic Baby Spinach'],0.001123956326268465,0.08171206225680933,2.896979452004223
+frozenset({'41950'}),['Organic Tomato Cluster'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0010436737315350033,0.09133489461358314,2.894828110195398
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'41950'}),['Organic Tomato Cluster'],0.0010436737315350033,0.03307888040712468,2.894828110195398
+frozenset({'4920'}),['Seedless Red Grapes'],frozenset({'24852'}),['Banana'],0.0017126953543138515,0.11469534050179211,2.8900441563526416
+frozenset({'24852'}),['Banana'],frozenset({'4920'}),['Seedless Red Grapes'],0.0017126953543138515,0.04315576534052596,2.8900441563526416
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'47766'}),['Organic Avocado'],0.0010436737315350033,0.06132075471698114,2.8571495788829813
+frozenset({'47766'}),['Organic Avocado'],frozenset({'45007'}),['Organic Zucchini'],0.0010436737315350033,0.0486284289276808,2.8571495788829813
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'47626'}),['Large Lemon'],0.001177478056090773,0.06918238993710692,2.813065883753875
+frozenset({'47626'}),['Large Lemon'],frozenset({'45007'}),['Organic Zucchini'],0.001177478056090773,0.04787812840043525,2.813065883753875
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'5876'}),['Organic Lemon'],0.0012309997859130807,0.03901611535199321,2.787675331688876
+frozenset({'5876'}),['Organic Lemon'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0012309997859130807,0.08795411089866156,2.787675331688876
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'4920'}),['Seedless Red Grapes'],0.0012845215157353885,0.04145077720207254,2.775864950693632
+frozenset({'4920'}),['Seedless Red Grapes'],frozenset({'21137'}),['Organic Strawberries'],0.0012845215157353885,0.08602150537634408,2.7758649506936317
+frozenset({'30391'}),['Organic Cucumber'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0012042389210019267,0.08754863813229571,2.7748240116434486
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'30391'}),['Organic Cucumber'],0.0012042389210019267,0.038167938931297704,2.7748240116434486
+frozenset({'8277'}),['Apple Honeycrisp Organic'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0010169128666238493,0.0871559633027523,2.7623783178093704
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'8277'}),['Apple Honeycrisp Organic'],0.0010169128666238493,0.032230703986429174,2.76237831780937
+frozenset({'27845'}),['Organic Whole Milk'],frozenset({'21137'}),['Organic Strawberries'],0.0010169128666238493,0.08463251670378619,2.731043077881764
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'27845'}),['Organic Whole Milk'],0.0010169128666238493,0.03281519861830743,2.731043077881764
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'26209'}),['Limes'],0.0013648041104688503,0.06227106227106227,2.7247600175000644
+frozenset({'26209'}),['Limes'],frozenset({'47209'}),['Organic Hass Avocado'],0.0013648041104688503,0.059718969555035126,2.7247600175000644
+frozenset({'24852'}),['Banana'],frozenset({'16797'}),['Strawberries'],0.0024352387069150076,0.061362103843560355,2.703984783521419
+frozenset({'16797'}),['Strawberries'],frozenset({'24852'}),['Banana'],0.0024352387069150076,0.10731132075471699,2.703984783521419
+frozenset({'24852'}),['Banana'],frozenset({'46979'}),['Asparagus'],0.0013648041104688503,0.03438975050573162,2.682831308764466
+frozenset({'46979'}),['Asparagus'],frozenset({'24852'}),['Banana'],0.0013648041104688503,0.10647181628392484,2.682831308764466
+frozenset({'43961'}),['Organic Peeled Whole Baby Carrots'],frozenset({'24852'}),['Banana'],0.001070434596446157,0.10498687664041995,2.6454144344566504
+frozenset({'24852'}),['Banana'],frozenset({'43961'}),['Organic Peeled Whole Baby Carrots'],0.001070434596446157,0.026972353337828724,2.6454144344566504
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'21903'}),['Organic Baby Spinach'],0.0016056518946692357,0.07326007326007326,2.597326771899827
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'47209'}),['Organic Hass Avocado'],0.0016056518946692357,0.056925996204933584,2.597326771899827
+frozenset({'16797'}),['Strawberries'],frozenset({'39275'}),['Organic Blueberries'],0.001177478056090773,0.05188679245283019,2.5817651935783736
+frozenset({'39275'}),['Organic Blueberries'],frozenset({'16797'}),['Strawberries'],0.001177478056090773,0.05858854860186418,2.581765193578373
+frozenset({'24852'}),['Banana'],frozenset({'47626'}),['Large Lemon'],0.0025155213016484694,0.0633850303438975,2.577336032525312
+frozenset({'47626'}),['Large Lemon'],frozenset({'24852'}),['Banana'],0.0025155213016484694,0.10228509249183895,2.577336032525312
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'47626'}),['Large Lemon'],0.0017662170841361592,0.06261859582542695,2.5461715873825397
+frozenset({'47626'}),['Large Lemon'],frozenset({'21903'}),['Organic Baby Spinach'],0.0017662170841361592,0.07181719260065288,2.5461715873825397
+frozenset({'42265'}),['Organic Baby Carrots'],frozenset({'21137'}),['Organic Strawberries'],0.001070434596446157,0.07858546168958742,2.535908059081609
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'42265'}),['Organic Baby Carrots'],0.001070434596446157,0.03454231433506045,2.5359080590816085
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'26209'}),['Limes'],0.0016324127595803897,0.05787476280834915,2.5323936026023315
+frozenset({'26209'}),['Limes'],frozenset({'21903'}),['Organic Baby Spinach'],0.0016324127595803897,0.07142857142857142,2.532393602602331
+frozenset({'44632'}),['Sparkling Water Grapefruit'],frozenset({'24852'}),['Banana'],0.0010169128666238493,0.09947643979057592,2.5065648024910594
+frozenset({'24852'}),['Banana'],frozenset({'44632'}),['Sparkling Water Grapefruit'],0.0010169128666238493,0.02562373567093729,2.5065648024910594
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'47766'}),['Organic Avocado'],0.0016591736244915437,0.053540587219343704,2.4946442184693707
+frozenset({'47766'}),['Organic Avocado'],frozenset({'21137'}),['Organic Strawberries'],0.0016591736244915437,0.0773067331670823,2.4946442184693707
+frozenset({'28985'}),['Michigan Organic Kale'],frozenset({'24852'}),['Banana'],0.001070434596446157,0.09852216748768473,2.4825194569654774
+frozenset({'24852'}),['Banana'],frozenset({'28985'}),['Michigan Organic Kale'],0.001070434596446157,0.026972353337828724,2.4825194569654774
+frozenset({'4605'}),['Yellow Onions'],frozenset({'21903'}),['Organic Baby Spinach'],0.001123956326268465,0.06999999999999999,2.4817457305502844
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'4605'}),['Yellow Onions'],0.001123956326268465,0.03984819734345351,2.4817457305502844
+frozenset({'28204'}),['Organic Fuji Apple'],frozenset({'21137'}),['Organic Strawberries'],0.0010436737315350033,0.07647058823529412,2.467662298079854
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'28204'}),['Organic Fuji Apple'],0.0010436737315350033,0.03367875647668394,2.467662298079854
+frozenset({'24852'}),['Banana'],frozenset({'24184'}),['Red Peppers'],0.001070434596446157,0.026972353337828724,2.4643102677945814
+frozenset({'24184'}),['Red Peppers'],frozenset({'24852'}),['Banana'],0.001070434596446157,0.097799511002445,2.4643102677945814
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'24852'}),['Banana'],0.003023977734960394,0.09758203799654577,2.4588304759642092
+frozenset({'24852'}),['Banana'],frozenset({'21137'}),['Organic Strawberries'],0.003023977734960394,0.07619689817936615,2.4588304759642092
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'31717'}),['Organic Cilantro'],0.0010436737315350033,0.03307888040712468,2.442868780738014
+frozenset({'31717'}),['Organic Cilantro'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0010436737315350033,0.07707509881422926,2.442868780738014
+frozenset({'9076'}),['Blueberries'],frozenset({'24852'}),['Banana'],0.001097195461357311,0.09624413145539906,2.425118478911229
+frozenset({'24852'}),['Banana'],frozenset({'9076'}),['Blueberries'],0.001097195461357311,0.027646662171274445,2.425118478911229
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'27966'}),['Organic Raspberries'],0.001123956326268465,0.03984819734345351,2.405569367253911
+frozenset({'27966'}),['Organic Raspberries'],frozenset({'21903'}),['Organic Baby Spinach'],0.001123956326268465,0.06785137318255251,2.405569367253911
+frozenset({'47626'}),['Large Lemon'],frozenset({'22935'}),['Organic Yellow Onion'],0.0010169128666238493,0.04134929270946681,2.403017682686401
+frozenset({'22935'}),['Organic Yellow Onion'],frozenset({'47626'}),['Large Lemon'],0.0010169128666238493,0.05909797822706066,2.403017682686401
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0012845215157353885,0.07547169811320754,2.3920495463056315
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'45007'}),['Organic Zucchini'],0.0012845215157353885,0.04071246819338422,2.3920495463056315
+frozenset({'24852'}),['Banana'],frozenset({'21903'}),['Organic Baby Spinach'],0.002676086491115393,0.06743088334457181,2.3906615263946485
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'24852'}),['Banana'],0.002676086491115393,0.09487666034155598,2.3906615263946485
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'21137'}),['Organic Strawberries'],0.0020873474630700066,0.07400379506641368,2.3880602884643753
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'21903'}),['Organic Baby Spinach'],0.0020873474630700066,0.06735751295336788,2.388060288464375
+frozenset({'4920'}),['Seedless Red Grapes'],frozenset({'13176'}),['Bag of Organic Bananas'],0.001123956326268465,0.07526881720430106,2.3856193055897554
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'4920'}),['Seedless Red Grapes'],0.001123956326268465,0.03562340966921119,2.3856193055897554
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'39275'}),['Organic Blueberries'],0.001471847570113466,0.04664970313825275,2.3211799026234736
+frozenset({'39275'}),['Organic Blueberries'],frozenset({'13176'}),['Bag of Organic Bananas'],0.001471847570113466,0.07323568575233022,2.3211799026234736
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'8518'}),['Organic Red Onion'],0.0010169128666238493,0.032230703986429174,2.3206106870229006
+frozenset({'8518'}),['Organic Red Onion'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0010169128666238493,0.07321772639691715,2.3206106870229006
+frozenset({'24852'}),['Banana'],frozenset({'21616'}),['Organic Baby Arugula'],0.001123956326268465,0.02832097100472016,2.3006479228356147
+frozenset({'21616'}),['Organic Baby Arugula'],frozenset({'24852'}),['Banana'],0.001123956326268465,0.09130434782608694,2.3006479228356147
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'40706'}),['Organic Grape Tomatoes'],0.0010169128666238493,0.03281519861830743,2.2666143104785808
+frozenset({'40706'}),['Organic Grape Tomatoes'],frozenset({'21137'}),['Organic Strawberries'],0.0010169128666238493,0.07024029574861368,2.2666143104785803
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'39275'}),['Organic Blueberries'],0.0012845215157353885,0.04554079696394687,2.2660033301581444
+frozenset({'39275'}),['Organic Blueberries'],frozenset({'21903'}),['Organic Baby Spinach'],0.0012845215157353885,0.06391478029294273,2.2660033301581444
+frozenset({'16797'}),['Strawberries'],frozenset({'47626'}),['Large Lemon'],0.0012042389210019267,0.05306603773584905,2.1577493994703016
+frozenset({'47626'}),['Large Lemon'],frozenset({'16797'}),['Strawberries'],0.0012042389210019267,0.04896626768226332,2.1577493994703016
+frozenset({'47766'}),['Organic Avocado'],frozenset({'16797'}),['Strawberries'],0.0010436737315350033,0.0486284289276808,2.142862184162236
+frozenset({'16797'}),['Strawberries'],frozenset({'47766'}),['Organic Avocado'],0.0010436737315350033,0.04599056603773585,2.142862184162236
+frozenset({'24964'}),['Organic Garlic'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0012845215157353885,0.06741573033707865,2.136718414958401
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'24964'}),['Organic Garlic'],0.0012845215157353885,0.04071246819338422,2.136718414958401
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'21137'}),['Organic Strawberries'],0.001123956326268465,0.0660377358490566,2.131000097761267
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'45007'}),['Organic Zucchini'],0.001123956326268465,0.03626943005181347,2.131000097761267
+frozenset({'4605'}),['Yellow Onions'],frozenset({'24852'}),['Banana'],0.0013380432455576965,0.08333333333333333,2.0997977073499663
+frozenset({'24852'}),['Banana'],frozenset({'4605'}),['Yellow Onions'],0.0013380432455576965,0.033715441672285906,2.099797707349966
+frozenset({'24852'}),['Banana'],frozenset({'40706'}),['Organic Grape Tomatoes'],0.0012042389210019267,0.030343897505057314,2.095916380719005
+frozenset({'40706'}),['Organic Grape Tomatoes'],frozenset({'24852'}),['Banana'],0.0012042389210019267,0.08317929759704251,2.095916380719005
+frozenset({'47209'}),['Organic Hass Avocado'],frozenset({'24852'}),['Banana'],0.0017929779490473132,0.08180708180708182,2.0613398738820186
+frozenset({'24852'}),['Banana'],frozenset({'47209'}),['Organic Hass Avocado'],0.0017929779490473132,0.045178691840863115,2.0613398738820186
+frozenset({'16797'}),['Strawberries'],frozenset({'21903'}),['Organic Baby Spinach'],0.0013112823806465425,0.05778301886792452,2.048610862482546
+frozenset({'21903'}),['Organic Baby Spinach'],frozenset({'16797'}),['Strawberries'],0.0013112823806465425,0.046489563567362426,2.048610862482546
+frozenset({'47766'}),['Organic Avocado'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0013648041104688503,0.06359102244389027,2.015495612114751
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'47766'}),['Organic Avocado'],0.0013648041104688503,0.04325699745547073,2.015495612114751
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'24964'}),['Organic Garlic'],0.001177478056090773,0.037996545768566495,1.9941782616289225
+frozenset({'24964'}),['Organic Garlic'],frozenset({'21137'}),['Organic Strawberries'],0.001177478056090773,0.06179775280898877,1.9941782616289225
+frozenset({'24852'}),['Banana'],frozenset({'42265'}),['Organic Baby Carrots'],0.001070434596446157,0.026972353337828724,1.9801628674420113
+frozenset({'42265'}),['Organic Baby Carrots'],frozenset({'24852'}),['Banana'],0.001070434596446157,0.07858546168958742,1.9801628674420113
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'16797'}),['Strawberries'],0.0013915649753800043,0.04410517387616624,1.9435402563733255
+frozenset({'16797'}),['Strawberries'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0013915649753800043,0.061320754716981125,1.9435402563733253
+frozenset({'26209'}),['Limes'],frozenset({'24852'}),['Banana'],0.0016859344894026974,0.07377049180327869,1.8588373147032486
+frozenset({'24852'}),['Banana'],frozenset({'26209'}),['Limes'],0.0016859344894026974,0.04248145650708024,1.8588373147032486
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'47626'}),['Large Lemon'],0.0013915649753800043,0.04410517387616624,1.79338643896037
+frozenset({'47626'}),['Large Lemon'],frozenset({'13176'}),['Bag of Organic Bananas'],0.0013915649753800043,0.056583242655059846,1.79338643896037
+frozenset({'39275'}),['Organic Blueberries'],frozenset({'24852'}),['Banana'],0.0014183258402911583,0.07057256990679095,1.7782574459048983
+frozenset({'24852'}),['Banana'],frozenset({'39275'}),['Organic Blueberries'],0.0014183258402911583,0.03573836817262306,1.778257445904898
+frozenset({'21137'}),['Organic Strawberries'],frozenset({'26209'}),['Limes'],0.001177478056090773,0.037996545768566495,1.6625935858077199
+frozenset({'26209'}),['Limes'],frozenset({'21137'}),['Organic Strawberries'],0.001177478056090773,0.05152224824355972,1.6625935858077199
+frozenset({'24852'}),['Banana'],frozenset({'27966'}),['Organic Raspberries'],0.0010436737315350033,0.02629804450438301,1.5875691874633027
+frozenset({'27966'}),['Organic Raspberries'],frozenset({'24852'}),['Banana'],0.0010436737315350033,0.0630048465266559,1.5875691874633027
+frozenset({'45007'}),['Organic Zucchini'],frozenset({'24852'}),['Banana'],0.001070434596446157,0.06289308176100629,1.5847529866792198
+frozenset({'24852'}),['Banana'],frozenset({'45007'}),['Organic Zucchini'],0.001070434596446157,0.026972353337828724,1.5847529866792198
+frozenset({'13176'}),['Bag of Organic Bananas'],frozenset({'26209'}),['Limes'],0.001097195461357311,0.03477523324851569,1.5216404168975812
+frozenset({'26209'}),['Limes'],frozenset({'13176'}),['Bag of Organic Bananas'],0.001097195461357311,0.04800936768149883,1.521640416897581
