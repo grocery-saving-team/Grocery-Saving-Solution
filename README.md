@@ -136,3 +136,12 @@ After running the command, open the local URL shown in the terminal (usually: `h
 ## 👩‍💻 Author
 
 Developed as an end-to-end Machine Learning & Analytics dashboard using the Instacart dataset.
+Team 2 of class: Machine Learning with Python Labs of DSTI 2025
+- Dinh Duy TRAN
+- Doreen Chepkoech KOSKE
+- Kim Yen LE
+- Leonardo Mariano HERNANDEZ ECHENIQUE
+- Myat Noe WAI
+- Nona Shamila SALLAY
+- Viet Linh Vu
+
